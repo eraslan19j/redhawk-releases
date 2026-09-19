@@ -4,3 +4,7 @@ src/build/
 *.tmp
 keystore/*.keystore
 .DS_Store
+src/
+apk-original/
+keystore/
+releases/*.apk
