@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="runtime_sessions">
+        <item quantity="other">%1$d جلسة</item>
+        <item quantity="zero">لا توجد جلسات</item>
+        <item quantity="one">جلسة واحدة</item>
+        <item quantity="two">جلستان</item>
+        <item quantity="few">%1$d جلسات</item>
+        <item quantity="many">%1$d جلسة</item>
+    </plurals>
+</resources>

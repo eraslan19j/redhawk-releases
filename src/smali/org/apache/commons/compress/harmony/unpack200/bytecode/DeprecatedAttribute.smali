@@ -1,0 +1,63 @@
+.class public Lorg/apache/commons/compress/harmony/unpack200/bytecode/DeprecatedAttribute;
+.super Lorg/apache/commons/compress/harmony/unpack200/bytecode/Attribute;
+.source "SourceFile"
+
+
+# static fields
+.field private static attributeName:Lorg/apache/commons/compress/harmony/unpack200/bytecode/CPUTF8;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lorg/apache/commons/compress/harmony/unpack200/bytecode/DeprecatedAttribute;->attributeName:Lorg/apache/commons/compress/harmony/unpack200/bytecode/CPUTF8;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lorg/apache/commons/compress/harmony/unpack200/bytecode/Attribute;-><init>(Lorg/apache/commons/compress/harmony/unpack200/bytecode/CPUTF8;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static setAttributeName(Lorg/apache/commons/compress/harmony/unpack200/bytecode/CPUTF8;)V
+    .locals 0
+
+    .line 1
+    sput-object p0, Lorg/apache/commons/compress/harmony/unpack200/bytecode/DeprecatedAttribute;->attributeName:Lorg/apache/commons/compress/harmony/unpack200/bytecode/CPUTF8;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+
+# virtual methods
+.method public getLength()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "Deprecated Attribute"
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public writeBody(Ljava/io/DataOutputStream;)V
+    .locals 0
+
+    return-void
+.end method

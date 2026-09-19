@@ -1,0 +1,6 @@
+apk-original/*.apk
+releases/**/*.apk
+src/build/
+*.tmp
+keystore/*.keystore
+.DS_Store

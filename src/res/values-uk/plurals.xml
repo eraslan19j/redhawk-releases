@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="runtime_sessions">
+        <item quantity="other">%1$d сеансу</item>
+        <item quantity="one">%1$d сеанс</item>
+        <item quantity="few">%1$d сеанси</item>
+        <item quantity="many">%1$d сеансів</item>
+    </plurals>
+</resources>

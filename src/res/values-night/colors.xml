@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#ffff7664</color>
+    <color name="accent_danger">#ffff6961</color>
+    <color name="ai_chat_blue">#ff6ea8ff</color>
+    <color name="ai_chat_muted">#ffaeaeb2</color>
+    <color name="bg_dark">#ff0b0b0d</color>
+    <color name="bg_panel">#ff19191c</color>
+    <color name="error">#ffff6961</color>
+    <color name="error_surface">#ff3a2021</color>
+    <color name="launcher_icon_background">#ff19191c</color>
+    <color name="link">#ff6ea8ff</color>
+    <color name="outline">#ff3a3a3f</color>
+    <color name="ripple">#2cffffff</color>
+    <color name="selection">#772563eb</color>
+    <color name="success">#ff65d39a</color>
+    <color name="success_surface">#ff193a2a</color>
+    <color name="surface_elevated">#ff19191c</color>
+    <color name="surface_field">#ff26262a</color>
+    <color name="surface_grouped">#ff26262a</color>
+    <color name="surface_scrim">#99000000</color>
+    <color name="term_bg">#ff0f0f10</color>
+    <color name="term_fg">#fff2f2f7</color>
+    <color name="text_dim">#ffaeaeb2</color>
+    <color name="text_log">#ffc7c7cc</color>
+    <color name="text_main">#fff2f2f7</color>
+    <color name="text_placeholder">#ff8e8e93</color>
+    <color name="text_primary">#fff2f2f7</color>
+    <color name="text_secondary">#ffaeaeb2</color>
+</resources>
