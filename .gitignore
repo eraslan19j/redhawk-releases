@@ -1,0 +1,20 @@
+# Hassas kaynaklar (sadece private repo'da)
+src/
+apk-original/
+keystore/
+releases/
+VERSION_CONFIG.json
+
+# Yama ve docs public kalabilir
+!patches/
+!docs/
+!scripts/
+
+# Build artıkları
+*.apk
+*.idsig
+*.tmp
+src/build/
+
+# Sistem
+.DS_Store

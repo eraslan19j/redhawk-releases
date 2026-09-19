@@ -1,0 +1,23 @@
+{
+  "latest": "1.0.0",
+  "min_supported": "0.9.0",
+  "url": "https://github.com/eraslan19j/redhawk-releases/releases/latest/download/ReDHawK-v1.0.0.apk",
+  "notes": "İlk sürüm — 11 AI sağlayıcısı, kırmızı-siyah tema, Jarvis iyileştirmeleri",
+  "mandatory": false,
+  "announcements": [
+    {
+      "id": "welcome",
+      "title": "ReDHawK Code v1.0.0 Yayında",
+      "body": "11 AI sağlayıcısı, kırmızı-siyah tema, Jarvis fullscreen ve daha fazlası.",
+      "date": "2026-09-19",
+      "type": "info"
+    },
+    {
+      "id": "tip-free",
+      "title": "İpucu: Sınırsız Sağlayıcılar",
+      "body": "Puter AI ve Pollinations Fast anahtarsız ve sınırsız çalışır. Ayarlardan seçebilirsiniz.",
+      "date": "2026-09-19",
+      "type": "tip"
+    }
+  ]
+}
