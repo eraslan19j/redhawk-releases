@@ -3481,7 +3481,7 @@
 
     .line 1131
     .line 1132
-    const-string v6, "List the temporary run tasks in the LoraCode app. Use exact IDs only for provider-specific task updates."
+    const-string v6, "List the temporary run tasks in the ReDHawK Code app. Use exact IDs only for provider-specific task updates."
 
     .line 1133
     .line 1134

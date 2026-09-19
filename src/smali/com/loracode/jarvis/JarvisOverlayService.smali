@@ -7669,7 +7669,7 @@
     const/4 v1, 0x1
 
     .line 72
-    const-string v2, "LoraCode:JarvisVoice"
+    const-string v2, "ReDHawK Code:JarvisVoice"
 
     .line 73
     .line 74

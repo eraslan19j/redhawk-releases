@@ -337,7 +337,7 @@
 
     .line 161
     .line 162
-    const-string v7, "LoraCode"
+    const-string v7, "ReDHawK Code"
 
     .line 163
     .line 164

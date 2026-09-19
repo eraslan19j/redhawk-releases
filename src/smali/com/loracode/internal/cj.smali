@@ -822,7 +822,7 @@
 
     .line 90
     .line 91
-    const-string v4, "LoraCode-Android"
+    const-string v4, "ReDHawK Code-Android"
 
     .line 92
     .line 93
@@ -1613,7 +1613,7 @@
 
     .line 228
     .line 229
-    const-string v5, "LoraCode-Android"
+    const-string v5, "ReDHawK Code-Android"
 
     .line 230
     .line 231

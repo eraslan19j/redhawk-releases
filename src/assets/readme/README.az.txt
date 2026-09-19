@@ -1,17 +1,17 @@
-# LoraCode 3.40.0
+# ReDHawK Code 3.40.0
 
 **Android üçün mobil Linux iş sahəsi** — Ubuntu, Node.js, npm, Python və istəyə bağlı Kali Linux bir tətbiqdə.
 
-> Yenilənmə: 11 avqust 2026. Uzun quraşdırmalar arxa planda davam edir, lakin LoraCode məcburi bağlanmamalıdır.
+> Yenilənmə: 11 avqust 2026. Uzun quraşdırmalar arxa planda davam edir, lakin ReDHawK Code məcburi bağlanmamalıdır.
 
 ## Yeniliklər
 
-- Terminalın altına müasir **Lora AI** agent iş mühiti əlavə edildi.
+- Terminalın altına müasir **ReDHawK AI** agent iş mühiti əlavə edildi.
 - OpenAI, Claude, Grok, Gemini, OpenCode Zen və OpenAI-uyğun xüsusi provayder dəstəklənir; API açarları Android Keystore ilə şifrələnir.
 - Layihə seçimi, söhbət, mətn redaktoru və sürüşən Fayl/İş mühiti menyusu əlavə edildi.
 - Fayl və qovluq alətləri yalnız seçilmiş layihədə işləyir və dəyişikliklər standart olaraq təsdiq istəyir.
 - Sistem təfərrüatları canlı paket yeniləməsi, iş mühiti kartları, axtarış, kateqoriya sayları və APT yeniləmə göstəriciləri ilə yeniləndi.
-- Veb konsol LoraCode VT mühərrikini, dəqiq brauzer ölçüsünü, uyğun rəngləri və mobil qısayolları istifadə edir; OpenCode ANSI pozuntuları olmadan göstərilir.
+- Veb konsol ReDHawK Code VT mühərrikini, dəqiq brauzer ölçüsünü, uyğun rəngləri və mobil qısayolları istifadə edir; OpenCode ANSI pozuntuları olmadan göstərilir.
 - Veb konsol yazılan əmri mobil klaviaturanın üstündə göstərir, Enter ilə göndərir və yerli əmr tarixçəsi təqdim edir.
 - Chromium/Brave veb konsol bağlantısı, mobil klaviatura fokusu, IME yazısı və avtomatik yenidən qoşulma düzəldildi.
 - OpenCode klaviatura bağlandıqda və ya telefon çevrildikdə terminal ölçüsünü izləyir və bütün istifadə edilə bilən ekranı doldurur.
@@ -35,7 +35,7 @@ loracode-setup-storage
 
 - `/sdcard` — telefonun ortaq yaddaşı.
 - `/storage` — Android yaddaş bölmələri.
-- `/hostdata` — LoraCode-un şəxsi körpü faylları.
+- `/hostdata` — ReDHawK Code-un şəxsi körpü faylları.
 
 ## Ubuntu əmrləri
 

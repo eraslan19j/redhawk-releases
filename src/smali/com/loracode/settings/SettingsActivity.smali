@@ -8475,7 +8475,7 @@
     move-result-object v7
 
     .line 3325
-    const-string v12, "LoraCode \u00b7 "
+    const-string v12, "ReDHawK Code \u00b7 "
 
     .line 3326
     .line 3327

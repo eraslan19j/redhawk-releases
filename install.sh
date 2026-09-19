@@ -13,6 +13,7 @@ rish <<RISH
 cp $TMP $DEST
 chmod 644 $DEST
 pm uninstall com.loracode
+pm clear com.loracode 2>/dev/null || true
 pm install $DEST
 am start -n com.loracode/.MainActivity
 RISH

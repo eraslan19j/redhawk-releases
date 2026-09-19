@@ -1766,7 +1766,7 @@
 
     .line 402
     .line 403
-    const-string v15, "export LORACODE_VSCODE_EXTENSIONS="
+    const-string v15, "export ReDHawK Code_VSCODE_EXTENSIONS="
 
     .line 404
     .line 405
@@ -1870,7 +1870,7 @@
 
     .line 458
     .line 459
-    const-string v11, "export LORACODE_ACTIVE_EXTENSION_PATHS="
+    const-string v11, "export ReDHawK Code_ACTIVE_EXTENSION_PATHS="
 
     .line 460
     .line 461
@@ -1927,7 +1927,7 @@
 
     .line 488
     .line 489
-    const-string v11, "export LORACODE_VSCODE_EXTENSION_BIN_PATHS="
+    const-string v11, "export ReDHawK Code_VSCODE_EXTENSION_BIN_PATHS="
 
     .line 490
     .line 491
@@ -2181,7 +2181,7 @@
 
     .line 616
     .line 617
-    const-string v15, "; inventory=/hostdata/.loracodefile; mkdir -p $inventory/tools/bin $inventory/tools/npm/bin $inventory/tools/python/bin $inventory/cache/npm $inventory/cache/pip $inventory/gradle-home 2>/dev/null || true; export LORACODE_INVENTORY=$inventory; export LORACODE_TOOLS=$inventory/tools; export NPM_CONFIG_CACHE=$inventory/cache/npm; export NPM_CONFIG_PREFIX=$inventory/tools/npm; export PIP_CACHE_DIR=$inventory/cache/pip; export PYTHONUSERBASE=$inventory/tools/python; export PIP_USER=1; export GRADLE_USER_HOME=$inventory/gradle-home; export PATH=$inventory/tools/bin:$inventory/tools/npm/bin:$inventory/tools/python/bin:"
+    const-string v15, "; inventory=/hostdata/.loracodefile; mkdir -p $inventory/tools/bin $inventory/tools/npm/bin $inventory/tools/python/bin $inventory/cache/npm $inventory/cache/pip $inventory/gradle-home 2>/dev/null || true; export ReDHawK Code_INVENTORY=$inventory; export ReDHawK Code_TOOLS=$inventory/tools; export NPM_CONFIG_CACHE=$inventory/cache/npm; export NPM_CONFIG_PREFIX=$inventory/tools/npm; export PIP_CACHE_DIR=$inventory/cache/pip; export PYTHONUSERBASE=$inventory/tools/python; export PIP_USER=1; export GRADLE_USER_HOME=$inventory/gradle-home; export PATH=$inventory/tools/bin:$inventory/tools/npm/bin:$inventory/tools/python/bin:"
 
     .line 618
     .line 619

@@ -1,18 +1,18 @@
-# LoraCode 3.40.0
+# ReDHawK Code 3.40.0
 
 **Mobile Linux workspace for Android** — Ubuntu, Node.js, npm, Python and optional Kali Linux in one application.
 
-> Updated: 11 August 2026. Long installations continue in the background, but LoraCode must not be force-stopped.
+> Updated: 11 August 2026. Long installations continue in the background, but ReDHawK Code must not be force-stopped.
 
 ## What is new
 
-- Added **Lora AI** directly below Terminal with a separate, modern agent workspace.
+- Added **ReDHawK AI** directly below Terminal with a separate, modern agent workspace.
 - First launch supports OpenAI, Claude, Grok, Gemini, OpenCode Zen and any OpenAI-compatible custom provider. API keys are encrypted by Android Keystore.
-- Lora AI includes project selection for Ubuntu home or phone storage, persistent chat, an integrated text editor and a sliding File/Workspace menu.
+- ReDHawK AI includes project selection for Ubuntu home or phone storage, persistent chat, an integrated text editor and a sliding File/Workspace menu.
 - Real tool calling can list, read, search, create, replace, move, rename and delete files or folders, and change POSIX permissions. Every path is confined to the selected project and changes ask for approval by default.
-- Provider endpoint/model, per-tool permission groups, approval mode and Auto Save can be changed later from Lora AI preferences.
+- Provider endpoint/model, per-tool permission groups, approval mode and Auto Save can be changed later from ReDHawK AI preferences.
 - System Details was redesigned with live package refresh, runtime cards, search, category counts and APT update-candidate indicators.
-- The Web console now uses LoraCode’s VT engine, exact browser sizing, themed colors and mobile shortcuts, so OpenCode renders without ANSI artifacts.
+- The Web console now uses ReDHawK Code’s VT engine, exact browser sizing, themed colors and mobile shortcuts, so OpenCode renders without ANSI artifacts.
 - The Web console now keeps the current command visible above the mobile keyboard, submits it with Enter and provides local command history.
 - Fixed the Web console connection in Chromium/Brave, mobile keyboard focus, IME composition and automatic reconnection.
 - OpenCode now follows terminal height changes and fills the whole usable screen when the keyboard closes or the phone rotates.
@@ -31,9 +31,9 @@
 - `wget`, `curl`, `git`, `nano`, Python, pip, networking tools and certificates are prepared in Kali.
 - Native ARM64 PTY support fixes job-control, `su`, terminal resize and repeated session-closing problems.
 
-## Lora AI tools
+## ReDHawK AI tools
 
-Choose **Lora AI** from the main menu, connect one provider and select a project folder. The agent exposes these project-scoped tools:
+Choose **ReDHawK AI** from the main menu, connect one provider and select a project folder. The agent exposes these project-scoped tools:
 
 ```text
 list_files      read_file        search_files
@@ -51,12 +51,12 @@ Ubuntu is mandatory. Node.js/npm and Python are optional and can be selected dur
 1. Select an Ubuntu version.
 2. Optionally select a Node.js/npm version.
 3. Optionally select a Python version.
-4. Press **Install Setup** and keep LoraCode running.
+4. Press **Install Setup** and keep ReDHawK Code running.
 5. Each component has its own percentage progress bar and background terminal output.
 
 ## Phone storage access
 
-Run this inside the Ubuntu terminal. LoraCode opens Android storage settings, waits for permission and continues automatically.
+Run this inside the Ubuntu terminal. ReDHawK Code opens Android storage settings, waits for permission and continues automatically.
 
 ```bash
 loracode-setup-storage
@@ -66,7 +66,7 @@ Available mount points:
 
 - `/sdcard` — shared phone storage.
 - `/storage` — Android storage volumes.
-- `/hostdata` — private LoraCode bridge files.
+- `/hostdata` — private ReDHawK Code bridge files.
 
 ## Ubuntu package commands
 
@@ -138,7 +138,7 @@ Install or repair Kali from the Ubuntu terminal:
 kali-install
 ```
 
-The first installation downloads the official minimal ARM64 root filesystem. Running the same command on an older LoraCode Kali installation repairs repositories and tools without downloading the root filesystem again.
+The first installation downloads the official minimal ARM64 root filesystem. Running the same command on an older ReDHawK Code Kali installation repairs repositories and tools without downloading the root filesystem again.
 
 Open Kali using any of these aliases:
 
@@ -219,7 +219,7 @@ pkg update
 
 ### A new terminal session closes immediately
 
-Install the latest LoraCode APK over the existing application. The ARM64 PTY bridge and session lifecycle fixes are included from version 3.31 onward.
+Install the latest ReDHawK Code APK over the existing application. The ARM64 PTY bridge and session lifecycle fixes are included from version 3.31 onward.
 
 ### Storage is not visible
 

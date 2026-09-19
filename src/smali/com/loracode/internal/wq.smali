@@ -493,7 +493,7 @@
     .line 221
     .line 222
     .line 223
-    const-string v2, " || exit 9\n                            elif ! git rev-parse --verify HEAD >/dev/null 2>&1; then\n                                git add -A >/dev/null 2>&1 || true\n                                git -c user.name=LoraCode -c user.email=noreply@loracode.local \\\n                                    commit --allow-empty -m \'Initial LoraCode workspace snapshot\' --no-gpg-sign >/dev/null 2>&1 || exit 10\n                                echo \'Remote repository has no commits; local main history initialized.\'\n                            fi\n                        else\n                            echo \'Target directory already exists and is not a Git repository\'\n                            exit 3\n                        fi\n                    else\n                        if git "
+    const-string v2, " || exit 9\n                            elif ! git rev-parse --verify HEAD >/dev/null 2>&1; then\n                                git add -A >/dev/null 2>&1 || true\n                                git -c user.name=ReDHawK Code -c user.email=noreply@loracode.local \\\n                                    commit --allow-empty -m \'Initial ReDHawK Code workspace snapshot\' --no-gpg-sign >/dev/null 2>&1 || exit 10\n                                echo \'Remote repository has no commits; local main history initialized.\'\n                            fi\n                        else\n                            echo \'Target directory already exists and is not a Git repository\'\n                            exit 3\n                        fi\n                    else\n                        if git "
 
     .line 224
     .line 225
@@ -639,7 +639,7 @@
     .line 305
     .line 306
     .line 307
-    const-string v1, " -c user.name=LoraCode -c user.email=noreply@loracode.local \\\n                                    commit --allow-empty -m \'Initial LoraCode workspace snapshot\' --no-gpg-sign >/dev/null 2>&1 || exit 11\n                                echo \'Remote repository has no commits; local main history initialized.\'\n                            fi\n                        else\n                            rm -rf "
+    const-string v1, " -c user.name=ReDHawK Code -c user.email=noreply@loracode.local \\\n                                    commit --allow-empty -m \'Initial ReDHawK Code workspace snapshot\' --no-gpg-sign >/dev/null 2>&1 || exit 11\n                                echo \'Remote repository has no commits; local main history initialized.\'\n                            fi\n                        else\n                            rm -rf "
 
     .line 308
     .line 309

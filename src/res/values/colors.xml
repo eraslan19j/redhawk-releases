@@ -5,11 +5,11 @@
     <color name="abc_search_url_text_normal">#ff7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <color name="accent">#ffff6b5b</color>
-    <color name="accent_danger">#ffd84a4a</color>
+    <color name="accent">#ffe53935</color>
+    <color name="accent_danger">#ffb71c1c</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <color name="ai_chat_blue">#ff2672c9</color>
+    <color name="ai_chat_blue">#ffe53935</color>
     <color name="ai_chat_muted">#ff6b6b73</color>
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
@@ -17,8 +17,8 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <color name="bg_dark">#fff7f7f9</color>
-    <color name="bg_panel">#ffffffff</color>
+    <color name="bg_dark">#ff0d0d0d</color>
+    <color name="bg_panel">#ff1a1a1a</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -310,4 +310,11 @@
     <color name="text_secondary">#ff6b6b73</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6ffffff</color>
+
+    <color name="redhawk_primary">#ff0d0d0d</color>
+    <color name="redhawk_accent">#ffe53935</color>
+    <color name="redhawk_accent_dark">#ffb71c1c</color>
+    <color name="redhawk_surface">#ff1a1a1a</color>
+    <color name="redhawk_text">#fff5f5f5</color>
+    <color name="redhawk_text_muted">#ff9e9e9e</color>
 </resources>

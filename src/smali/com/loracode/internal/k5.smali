@@ -1438,7 +1438,7 @@
 
     .line 673
     .line 674
-    const-string v2, "\r\n[LoraCode blocked an invalid browser request]\r\n"
+    const-string v2, "\r\n[ReDHawK Code blocked an invalid browser request]\r\n"
 
     .line 675
     .line 676

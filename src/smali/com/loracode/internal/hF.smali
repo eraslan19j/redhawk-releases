@@ -5852,7 +5852,7 @@
 
     .line 28
     .line 29
-    const-string v4, "# Managed by LoraCode ConfigatureSupportActivity\n"
+    const-string v4, "# Managed by ReDHawK Code ConfigatureSupportActivity\n"
 
     .line 30
     .line 31
@@ -5991,7 +5991,7 @@
 
     .line 97
     .line 98
-    const-string v8, "export LORACODE_DEFAULT_JDK=\'"
+    const-string v8, "export ReDHawK Code_DEFAULT_JDK=\'"
 
     .line 99
     .line 100
@@ -6040,7 +6040,7 @@
 
     .line 124
     .line 125
-    const-string v9, "export LORACODE_DEFAULT_NDK=\'"
+    const-string v9, "export ReDHawK Code_DEFAULT_NDK=\'"
 
     .line 126
     .line 127
@@ -6089,7 +6089,7 @@
 
     .line 151
     .line 152
-    const-string v10, "export LORACODE_DEFAULT_GRADLE=\'"
+    const-string v10, "export ReDHawK Code_DEFAULT_GRADLE=\'"
 
     .line 153
     .line 154
@@ -6138,7 +6138,7 @@
 
     .line 178
     .line 179
-    const-string v11, "export LORACODE_DEFAULT_WRAPPER=\'"
+    const-string v11, "export ReDHawK Code_DEFAULT_WRAPPER=\'"
 
     .line 180
     .line 181
@@ -6265,7 +6265,7 @@
 
     .line 243
     .line 244
-    const-string v5, "\n            #!/bin/sh\n            if [ \"${1:-}\" = \"--status\" ]; then\n              echo \"LoraCode WSL-compatible bridge: Ubuntu + PowerShell "
+    const-string v5, "\n            #!/bin/sh\n            if [ \"${1:-}\" = \"--status\" ]; then\n              echo \"ReDHawK Code WSL-compatible bridge: Ubuntu + PowerShell "
 
     .line 245
     .line 246

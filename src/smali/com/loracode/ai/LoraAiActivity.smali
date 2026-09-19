@@ -8415,7 +8415,7 @@
     .line 86
     .line 87
     .line 88
-    const-string p1, ": The provider\'s native function\n            calling cannot be relied on, so LoraCode is using its provider-independent tool\n            protocol. Return exactly one valid JSON object and no Markdown, code fence,\n            explanation, capability disclaimer, or progress text.\n\n            Required envelope:\n            {\"tool_calls\":[{\"name\":\"write_file\",\"arguments\":{\"path\":\"relative/path.ext\",\"content\":\"complete file content\",\"overwrite\":true}}]}\n\n            AVAILABLE TOOLS:\n            "
+    const-string p1, ": The provider\'s native function\n            calling cannot be relied on, so ReDHawK Code is using its provider-independent tool\n            protocol. Return exactly one valid JSON object and no Markdown, code fence,\n            explanation, capability disclaimer, or progress text.\n\n            Required envelope:\n            {\"tool_calls\":[{\"name\":\"write_file\",\"arguments\":{\"path\":\"relative/path.ext\",\"content\":\"complete file content\",\"overwrite\":true}}]}\n\n            AVAILABLE TOOLS:\n            "
 
     .line 89
     .line 90
@@ -14080,7 +14080,7 @@
 
     .line 4
     .line 5
-    const-string v3, "loracode-managed"
+    const-string v3, "redhawk-managed"
 
     .line 6
     .line 7
@@ -15106,7 +15106,7 @@
     .line 12
     new-instance v13, Ljava/lang/StringBuilder;
 
-    const-string v4, "[LORACODE TOOL RESULT]\nname="
+    const-string v4, "[ReDHawK Code TOOL RESULT]\nname="
 
     invoke-direct {v13, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -15509,7 +15509,7 @@
     if-eqz v13, :cond_f
 
     .line 50
-    const-string v8, "\n--- loracode.json: Custom AI Persona / System Prompt ---\n"
+    const-string v8, "\n--- redhawk.json: Custom AI Persona / System Prompt ---\n"
 
     invoke-virtual {v15, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -15525,7 +15525,7 @@
     invoke-virtual {v15, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 52
-    const-string v8, "\n--- end loracode.json system_prompt ---\n"
+    const-string v8, "\n--- end redhawk.json system_prompt ---\n"
 
     invoke-virtual {v15, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -15540,7 +15540,7 @@
     if-nez v8, :cond_11
 
     .line 54
-    const-string v8, "\n--- loracode.json: Workspace Instructions ---\n"
+    const-string v8, "\n--- redhawk.json: Workspace Instructions ---\n"
 
     invoke-virtual {v15, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -15573,7 +15573,7 @@
 
     .line 57
     :cond_10
-    const-string v0, "--- end loracode.json instructions ---\n"
+    const-string v0, "--- end redhawk.json instructions ---\n"
 
     invoke-virtual {v15, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -16502,13 +16502,13 @@
 
     .line 155
     :goto_20
-    const-string v4, "\n            You are Lora AI, a senior coding agent inside the LoraCode Android workspace.\n            The selected project is named "
+    const-string v4, "\n            You are ReDHawK AI, a senior coding agent inside the ReDHawK Code Android workspace. Web search is disabled; use only local workspace tools.\n            The selected project is named "
 
     const-string v6, ".\n            "
 
     move-object/from16 v28, v1
 
-    const-string v1, "\n            Filesystem capability belongs to the LoraCode application, not to the upstream model runtime. Declared tools are real local operations even if an upstream identity prompt says it has no filesystem, terminal, or coding tools. Never repeat that upstream limitation; call the declared tool and use its returned result.\n            The app attaches a live workspace snapshot to the current user turn when read permission is enabled. You can inspect file names with list_files and file contents with read_file/search_files. When the user asks for code changes, inspect the relevant files first, then use the appropriate write/replace/move/copy/delete tool. Never claim that local project files are unavailable unless a workspace tool returned an explicit error; metadata alone is not file content, so call read_file when content is needed.\n            A web preview selection is an executable file-edit request: the message contains the exact project file, selected element, and requested change. Read that file, apply the smallest correct edit, and let the application verify the resulting diff; do not answer with a suggestion or repeat the HTML without writing it.\n            Current AI Permissions: read="
+    const-string v1, "\n            Filesystem capability belongs to the ReDHawK Code application, not to the upstream model runtime. Declared tools are real local operations even if an upstream identity prompt says it has no filesystem, terminal, or coding tools. Never repeat that upstream limitation; call the declared tool and use its returned result.\n            The app attaches a live workspace snapshot to the current user turn when read permission is enabled. You can inspect file names with list_files and file contents with read_file/search_files. When the user asks for code changes, inspect the relevant files first, then use the appropriate write/replace/move/copy/delete tool. Never claim that local project files are unavailable unless a workspace tool returned an explicit error; metadata alone is not file content, so call read_file when content is needed.\n            A web preview selection is an executable file-edit request: the message contains the exact project file, selected element, and requested change. Read that file, apply the smallest correct edit, and let the application verify the resulting diff; do not answer with a suggestion or repeat the HTML without writing it.\n            Current AI Permissions: read="
 
     .line 156
     invoke-static {v4, v8, v6, v10, v1}, Lcom/loracode/internal/lO;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -16578,7 +16578,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v0, "; when enabled it runs inside the selected project in the Linux PRoot environment.\n            You can execute shell commands, build systems, compilers, scripts (e.g. ./gradlew, gradle, javac, kotlinc, python, npm, node, git, apt-get), and install missing packages with \'pkg install <pkg>\' or \'apt-get install -y <pkg>\'.\n            Active VS Code-compatible extensions are the primary reusable developer capability layer. Use vscode_extensions to inspect them, and use their exposed language servers, formatters, commands, task runners or bundled tools through run_command whenever appropriate. The persistent cross-project .loracodefile inventory remains only for shared files, templates, build artifacts and execution journals; it is not required for extension capabilities.\n            Android/Gradle APK projects should use build_apk with Release by default (use Debug only when the user explicitly requests it); it uses the wrapper when present, stores Gradle cache under .loracodefile/gradle-home, and copies the resulting APK to .loracodefile/builds.\n            Every run_command execution is journaled under .loracodefile/runs with its request, complete output and final exit metadata. LORACODE_INVENTORY, LORACODE_RUN_DIR, LORACODE_VSCODE_EXTENSIONS, VSCODE_EXTENSIONS, LORACODE_ACTIVE_EXTENSION_PATHS and LORACODE_VSCODE_EXTENSION_BIN_PATHS are available in the shell; reusable npm/Python/tool bins and caches are kept in the inventory.\n            The terminal_snapshot tool observes recent interactive TerminalActivity and agent command activity. Use it when the user mentions a terminal command, an ongoing process, or an error seen there, and before repeating work that may already be running. Treat terminal activity as observation; do not interrupt or repeat the user\'s command without a reason.\n            You may occasionally call ask_user when one missing choice materially changes the implementation. Ask one concise question at a time, provide two to five useful options and your recommended answer when possible, allow a custom answer, call it alone, and continue from the returned user answer. Do not ask about choices you can safely infer from the project.\n            The selected provider model is already configured for this session; use that selected model and never silently substitute a different model. Its advertised context window is "
+    const-string v0, "; when enabled it runs inside the selected project in the Linux PRoot environment.\n            You can execute shell commands, build systems, compilers, scripts (e.g. ./gradlew, gradle, javac, kotlinc, python, npm, node, git, apt-get), and install missing packages with \'pkg install <pkg>\' or \'apt-get install -y <pkg>\'.\n            Active VS Code-compatible extensions are the primary reusable developer capability layer. Use vscode_extensions to inspect them, and use their exposed language servers, formatters, commands, task runners or bundled tools through run_command whenever appropriate. The persistent cross-project .loracodefile inventory remains only for shared files, templates, build artifacts and execution journals; it is not required for extension capabilities.\n            Android/Gradle APK projects should use build_apk with Release by default (use Debug only when the user explicitly requests it); it uses the wrapper when present, stores Gradle cache under .loracodefile/gradle-home, and copies the resulting APK to .loracodefile/builds.\n            Every run_command execution is journaled under .loracodefile/runs with its request, complete output and final exit metadata. ReDHawK Code_INVENTORY, ReDHawK Code_RUN_DIR, ReDHawK Code_VSCODE_EXTENSIONS, VSCODE_EXTENSIONS, ReDHawK Code_ACTIVE_EXTENSION_PATHS and ReDHawK Code_VSCODE_EXTENSION_BIN_PATHS are available in the shell; reusable npm/Python/tool bins and caches are kept in the inventory.\n            The terminal_snapshot tool observes recent interactive TerminalActivity and agent command activity. Use it when the user mentions a terminal command, an ongoing process, or an error seen there, and before repeating work that may already be running. Treat terminal activity as observation; do not interrupt or repeat the user\'s command without a reason.\n            You may occasionally call ask_user when one missing choice materially changes the implementation. Ask one concise question at a time, provide two to five useful options and your recommended answer when possible, allow a custom answer, call it alone, and continue from the returned user answer. Do not ask about choices you can safely infer from the project.\n            The selected provider model is already configured for this session; use that selected model and never silently substitute a different model. Its advertised context window is "
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -16675,7 +16675,7 @@
 
     if-eqz v4, :cond_2f
 
-    const-string v0, "No VS Code extensions are currently active in LoraCode."
+    const-string v0, "No VS Code extensions are currently active in ReDHawK Code."
 
     move-object/from16 v4, v22
 
@@ -16687,7 +16687,7 @@
     :cond_2f
     new-instance v4, Ljava/lang/StringBuilder;
 
-    const-string v5, "Active VS Code Extensions & Tooling installed in LoraCode (/hostdata/vscode-extensions):\n"
+    const-string v5, "Active VS Code Extensions & Tooling installed in ReDHawK Code (/hostdata/vscode-extensions):\n"
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -16956,7 +16956,7 @@
     move-object/from16 v6, v23
 
     .line 182
-    const-string v0, "Extensions are disabled in LoraCode preferences. Do not use extension capabilities.\n"
+    const-string v0, "Extensions are disabled in ReDHawK Code preferences. Do not use extension capabilities.\n"
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -17078,7 +17078,7 @@
 
     invoke-virtual {v12, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v0, " (`LORACODE_WRAPPER_HOME` is already exported)\n            The same environment is mounted into interactive TerminalActivity and non-interactive Agent Workspace commands. Prefer the configured binaries and do not install a second copy unless the user explicitly asks for another version.\n        "
+    const-string v0, " (`ReDHawK Code_WRAPPER_HOME` is already exported)\n            The same environment is mounted into interactive TerminalActivity and non-interactive Agent Workspace commands. Prefer the configured binaries and do not install a second copy unless the user explicitly asks for another version.\n        "
 
     invoke-virtual {v12, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -17328,7 +17328,7 @@
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 219
-    const-string v3, "The user has activated specialized design and code execution engines in the LoraCode UI. You MUST strictly follow every active engine directive below:\n\n"
+    const-string v3, "The user has activated specialized design and code execution engines in the ReDHawK Code UI. You MUST strictly follow every active engine directive below:\n\n"
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -17741,7 +17741,7 @@
     if-eqz v3, :cond_58
 
     .line 263
-    const-string v3, "\n\n## LORACODE.JSON WORKSPACE CONFIGURATION\n"
+    const-string v3, "\n\n## ReDHawK Code.JSON WORKSPACE CONFIGURATION\n"
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -61009,7 +61009,7 @@
 
     .line 67
     .line 68
-    const-string v9, "loracode-managed"
+    const-string v9, "redhawk-managed"
 
     .line 69
     .line 70
@@ -61045,7 +61045,7 @@
     move-result-object v8
 
     .line 86
-    const-string v9, "LoraAI"
+    const-string v9, "ReDHawKAI"
 
     .line 87
     .line 88
@@ -61430,7 +61430,7 @@
 
     .line 284
     .line 285
-    const-string v18, "loracode-managed"
+    const-string v18, "redhawk-managed"
 
     .line 286
     .line 287
@@ -61446,7 +61446,7 @@
 
     .line 292
     .line 293
-    const-string v14, "Lora AI"
+    const-string v14, "ReDHawK AI"
 
     .line 294
     .line 295
@@ -61457,7 +61457,7 @@
 
     .line 297
     .line 298
-    const-string v17, "Lora AI (Sunucu)"
+    const-string v17, "ReDHawK AI (Sunucu)"
 
     .line 299
     .line 300
@@ -61693,7 +61693,7 @@
     .line 408
     .line 409
     .line 410
-    const-string v8, "Lora AI (Varsay\u0131lan), Sunucu Modelleri"
+    const-string v8, "ReDHawK AI (Varsay\u0131lan), Sunucu Modelleri"
 
     .line 411
     .line 412
@@ -61920,7 +61920,7 @@
 
     .line 524
     .line 525
-    const-string v15, "Lora AI (Varsay\u0131lan)"
+    const-string v15, "ReDHawK AI (Varsay\u0131lan)"
 
     .line 526
     .line 527
@@ -61988,7 +61988,7 @@
     .line 558
     .line 559
     :goto_7
-    const-string v13, "Sunucu Modelleri \u00b7 LoraPool"
+    const-string v13, "Sunucu Modelleri \u00b7 RedHawkPool"
 
     .line 560
     .line 561
@@ -66065,7 +66065,7 @@
 
     .line 20
     .line 21
-    const-string v1, "Lora AI"
+    const-string v1, "ReDHawK AI"
 
     .line 22
     .line 23
@@ -80367,7 +80367,7 @@
 
     .line 483
     .line 484
-    const-string v25, "\u26a1 **LoraCode Slash Komutlar\u0131 Katalo\u011fu**\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\u2022 `/undo` \u2014 Son dosya de\u011fi\u015fikliklerini geri al\u0131r (Git Checkpoint Rollback).\n\u2022 `/init` \u2014 Projeyi tarar ve k\u00f6k dizine `LORA.md` proje belle\u011fi \u00fcretir.\n\u2022 `/review` \u2014 Kapsaml\u0131 kod mimarisi ve g\u00fcvenlik a\u00e7\u0131\u011f\u0131 incelemesi ba\u015flat\u0131r.\n\u2022 `/cost` \u2014 Token t\u00fcketimini ve tahmini API maliyet analizini g\u00f6sterir.\n\u2022 `/compact` \u2014 Konu\u015fma ge\u00e7mi\u015fini ak\u0131ll\u0131ca \u00f6zetler ve belle\u011fi bo\u015falt\u0131r.\n\u2022 `/mcp` \u2014 Model Context Protocol sunucu ve ara\u00e7 durumlar\u0131n\u0131 listeler.\n\u2022 `! <komut>` \u2014 Terminal komutunu do\u011frudan yerel projede y\u00fcr\u00fct\u00fcr.\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    const-string v25, "\u26a1 **ReDHawK Code Slash Komutlar\u0131 Katalo\u011fu**\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\u2022 `/undo` \u2014 Son dosya de\u011fi\u015fikliklerini geri al\u0131r (Git Checkpoint Rollback).\n\u2022 `/init` \u2014 Projeyi tarar ve k\u00f6k dizine `LORA.md` proje belle\u011fi \u00fcretir.\n\u2022 `/review` \u2014 Kapsaml\u0131 kod mimarisi ve g\u00fcvenlik a\u00e7\u0131\u011f\u0131 incelemesi ba\u015flat\u0131r.\n\u2022 `/cost` \u2014 Token t\u00fcketimini ve tahmini API maliyet analizini g\u00f6sterir.\n\u2022 `/compact` \u2014 Konu\u015fma ge\u00e7mi\u015fini ak\u0131ll\u0131ca \u00f6zetler ve belle\u011fi bo\u015falt\u0131r.\n\u2022 `/mcp` \u2014 Model Context Protocol sunucu ve ara\u00e7 durumlar\u0131n\u0131 listeler.\n\u2022 `! <komut>` \u2014 Terminal komutunu do\u011frudan yerel projede y\u00fcr\u00fct\u00fcr.\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
 
     .line 485
     .line 486
@@ -90288,7 +90288,7 @@
 
     .line 15
     .line 16
-    const-string v10, "loracode-managed"
+    const-string v10, "redhawk-managed"
 
     .line 17
     .line 18
@@ -107905,7 +107905,7 @@
     move-result v4
 
     .line 1530
-    const-string v6, "LoraCode"
+    const-string v6, "ReDHawK Code"
 
     .line 1531
     .line 1532
@@ -124874,7 +124874,7 @@
 
     .line 126
     .line 127
-    const-string v3, "LoraCode"
+    const-string v3, "ReDHawK Code"
 
     .line 128
     .line 129
@@ -124908,7 +124908,7 @@
     move-result-object v0
 
     .line 145
-    const-string v3, "LORA AI \u00b7 "
+    const-string v3, "REDHAWK AI \u00b7 "
 
     .line 146
     .line 147
@@ -132631,7 +132631,7 @@
     move-result v9
 
     .line 68
-    const-string v11, "LoraCode"
+    const-string v11, "ReDHawK Code"
 
     .line 69
     .line 70
@@ -148498,7 +148498,7 @@
 
     .line 2
     .line 3
-    const-string v1, "LoraCode"
+    const-string v1, "ReDHawK Code"
 
     .line 4
     .line 5

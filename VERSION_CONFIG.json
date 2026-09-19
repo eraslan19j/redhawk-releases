@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "url": "https://github.com/REDHAWK-CODE/releases/latest/download/ReDHawK.apk",
+  "sha256": "",
+  "notes": "İlk sürüm — 11 sağlayıcı, kırmızı-siyah tema, Jarvis",
+  "mandatory": false,
+  "min_supported": "0.9.0"
+}

@@ -1,10 +1,26 @@
-# Changelog
+# ReDHawK Code — Değişiklik Günlüğü
 
-## v0.9.0 - 2026-09-19
+## v1.0.0 — 2026-09-19 (İlk Sürüm)
 
-- Ilk calisan surum
-- AI mesajlasma aktif (Pollinations)
-- 8 saglayici seed edildi
-- Abonelik ve token kilitleri kaldirildi
-- Ekran goruntusu aktif
-- Kullanici adi gercek isim gosteriyor
+### Özellikler
+- 11 AI sağlayıcısı (Puter AI, Pollinations, Groq, Gemini, NVIDIA, OpenRouter, Mistral, DeepSeek)
+- Sınırsız anahtarsız sağlayıcılar
+- Agentic kod yazma (dosya okuma/yazma/terminal)
+- Jarvis ses asistanı + fullscreen
+- Kırmızı-siyah özel tema
+- Ekran görüntüsü ve kayıt desteği
+
+### Güvenlik
+- Firebase giriş atlama
+- Anti-tamper bypass
+- Sunucu bağımsızlığı
+
+### Altyapı
+- Termux tabanlı derleme sistemi
+- Git versiyonlama
+- Patch yönetimi
+- Uzaktan güncelleme altyapısı
+
+### Bilinen Sınırlamalar
+- Web search sunucu tarafında kapalı
+- Bazı ücretsiz sağlayıcılar API key gerektirir

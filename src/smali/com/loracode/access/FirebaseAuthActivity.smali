@@ -1371,7 +1371,7 @@
     move-result v10
 
     .line 115
-    const-string v11, "LoraCode"
+    const-string v11, "ReDHawK Code"
 
     .line 116
     .line 117

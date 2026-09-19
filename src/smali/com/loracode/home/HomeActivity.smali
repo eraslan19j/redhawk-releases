@@ -3773,7 +3773,7 @@
 
     .line 18
     :cond_1
-    const-string v1, "LoraCode referral"
+    const-string v1, "ReDHawK Code referral"
 
     .line 19
     .line 20

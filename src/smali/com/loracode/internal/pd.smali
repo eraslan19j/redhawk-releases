@@ -595,7 +595,7 @@
     .line 278
     .line 279
     .line 280
-    const-string v3, "loracode-managed"
+    const-string v3, "redhawk-managed"
 
     .line 281
     .line 282

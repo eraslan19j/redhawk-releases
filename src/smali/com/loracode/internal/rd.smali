@@ -422,7 +422,7 @@
 
     .line 180
     .line 181
-    const-string v5, "LoraCode README.md"
+    const-string v5, "ReDHawK Code README.md"
 
     .line 182
     .line 183

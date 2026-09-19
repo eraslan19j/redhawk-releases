@@ -8,7 +8,7 @@ if [ -z "$url" ]; then
 fi
 if [ "$(printf '%s' "$url" | wc -c)" -gt 2048 ] ||
    printf '%s' "$url" | grep -q '[[:cntrl:]]'; then
-  echo 'LoraCode: rejected malformed browser URL.' >&2
+  echo 'ReDHawK Code: rejected malformed browser URL.' >&2
   exit 2
 fi
 
@@ -26,15 +26,15 @@ case "$url" in
     authority=${authority%%/*}
     case "$authority" in
       ''|*@*|*' '*|*'#'*)
-        echo 'LoraCode: rejected malformed HTTPS browser URL.' >&2
+        echo 'ReDHawK Code: rejected malformed HTTPS browser URL.' >&2
         exit 2 ;;
     esac ;;
   *)
-    echo 'LoraCode: only localhost HTTP or secure HTTPS browser URLs are allowed.' >&2
+    echo 'ReDHawK Code: only localhost HTTP or secure HTTPS browser URLs are allowed.' >&2
     exit 2 ;;
 esac
 
-bridge_dir=${LORACODE_BROWSER_BRIDGE_DIR:-/hostdata/browser-bridge}
+bridge_dir=${ReDHawK Code_BROWSER_BRIDGE_DIR:-/hostdata/browser-bridge}
 mkdir -p -- "$bridge_dir" || exit 1
 job_id="open-$$-$(date +%s)"
 temporary="$bridge_dir/$job_id.tmp"

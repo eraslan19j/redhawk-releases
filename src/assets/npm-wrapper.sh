@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# LoraCode npm compatibility wrapper.
+# ReDHawK Code npm compatibility wrapper.
 # npm's global reifier can leave hidden rename targets behind when a proot
 # session is interrupted. The next global install then fails with ENOTEMPTY.
 # Global installs therefore run exactly once in a clean transaction prefix;
@@ -53,7 +53,7 @@ if [ "$is_global" -eq 1 ] && [ "$package_count" -eq 1 ] && [ -n "$opencode_spec"
   exec /usr/local/bin/loracode-install-opencode "$opencode_spec"
 fi
 
-REAL_NPM=${LORACODE_REAL_NPM:-/usr/bin/npm}
+REAL_NPM=${ReDHawK Code_REAL_NPM:-/usr/bin/npm}
 if [ ! -x "$REAL_NPM" ]; then
   echo 'npm is not installed. Run: pkg install npm' >&2
   exit 127
@@ -86,7 +86,7 @@ discover_global_root() {
   fi
   global_root="$global_prefix/lib/node_modules"
   mkdir -p -- "$global_root" || {
-    echo "LoraCode: npm global directory is not writable: $global_root" >&2
+    echo "ReDHawK Code: npm global directory is not writable: $global_root" >&2
     return 1
   }
   global_root_real=$(readlink -f -- "$global_root" 2>/dev/null) || return 1
@@ -108,7 +108,7 @@ acquire_global_lock() {
     esac
     wait_count=$((wait_count + 1))
     if [ "$wait_count" -ge 600 ]; then
-      echo 'LoraCode: another global npm operation is still running.' >&2
+      echo 'ReDHawK Code: another global npm operation is still running.' >&2
       return 1
     fi
     sleep 0.2
@@ -116,7 +116,7 @@ acquire_global_lock() {
 
   printf '%s\n' "$$" > "$lock_dir/pid"
   owns_lock=1
-  export LORACODE_NPM_LOCK_HELD=1
+  export ReDHawK Code_NPM_LOCK_HELD=1
 }
 
 is_safe_stage_name() {
@@ -143,7 +143,7 @@ remove_stage_path() {
 
   if [ -e "$candidate" ] || [ -L "$candidate" ]; then
     rm -rf -- "$candidate" || return 1
-    printf 'LoraCode: removed stale npm staging directory: %s\n' "$candidate"
+    printf 'ReDHawK Code: removed stale npm staging directory: %s\n' "$candidate"
     return 0
   fi
   return 1
@@ -238,7 +238,7 @@ promote_staged_install() {
     relative=${source#"$staged_root"/}
     destination="$global_root/$relative"
     promote_entry "$source" "$destination" || {
-      echo "LoraCode: could not activate installed package: $relative" >&2
+      echo "ReDHawK Code: could not activate installed package: $relative" >&2
       return 1
     }
     promoted=$((promoted + 1))
@@ -251,12 +251,12 @@ promote_staged_install() {
     [ "$bin_name" = . ] || [ "$bin_name" = .. ] ||
       promote_entry "$bin_source" "$global_prefix/bin/$bin_name" || {
         shopt -u nullglob dotglob
-        echo "LoraCode: could not activate npm command: $bin_name" >&2
+        echo "ReDHawK Code: could not activate npm command: $bin_name" >&2
         return 1
       }
   done
   shopt -u nullglob dotglob
-  printf 'LoraCode: activated %s global npm package(s) in one pass.\n' "$promoted"
+  printf 'ReDHawK Code: activated %s global npm package(s) in one pass.\n' "$promoted"
 }
 
 run_npm_once() {
@@ -274,7 +274,7 @@ run_global_install_once() {
   mkdir -p -- "$transaction_prefix" "$transaction_cache" || return 1
   staged_root="$transaction_prefix/lib/node_modules"
 
-  echo 'LoraCode: installing global npm package in one pass...'
+  echo 'ReDHawK Code: installing global npm package in one pass...'
   : > "$log_file"
   NPM_CONFIG_PREFIX="$transaction_prefix" NPM_CONFIG_CACHE="$transaction_cache" \
     "$REAL_NPM" "$@" --prefix "$transaction_prefix" >"$log_file" 2>&1
@@ -285,7 +285,7 @@ run_global_install_once() {
        collect_staged_packages "$staged_root" &&
        { [ "$package_count" -eq 0 ] || [ "${#staged_packages[@]}" -ge "$package_count" ]; }; then
       exit_handler_only=1
-      echo 'LoraCode: package completed; validating the staged result.'
+      echo 'ReDHawK Code: package completed; validating the staged result.'
     fi
   fi
 
@@ -305,7 +305,7 @@ run_global_install_once() {
 
 if [ "$is_global" -eq 1 ] && [ "$is_global_mutation" -eq 1 ]; then
   discover_global_root || exit 1
-  if [ "${LORACODE_NPM_LOCK_HELD:-0}" != 1 ]; then
+  if [ "${ReDHawK Code_NPM_LOCK_HELD:-0}" != 1 ]; then
     acquire_global_lock || exit 75
     remove_known_staging_directories
   fi

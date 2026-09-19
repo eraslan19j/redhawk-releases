@@ -2,17 +2,17 @@
 
 **适用于 Android 的移动 Linux 工作区** — Ubuntu、Node.js、npm、Python 和可选的 Kali Linux 在一个应用程序中。
 
-> 更新日期：2026 年 8 月 11 日。长时间安装将在后台继续进行，但不得强制停止 LoraCode。
+> 更新日期：2026 年 8 月 11 日。长时间安装将在后台继续进行，但不得强制停止 ReDHawK Code。
 
 ## 有什么新内容
 
-- 在终端下方直接添加了 **Lora AI**，并具有独立的现代代理工作区。
+- 在终端下方直接添加了 **ReDHawK AI**，并具有独立的现代代理工作区。
 - 首次发布支持 OpenAI、Claude、Grok、Gemini、OpenCode Zen 和任何与 OpenAI 兼容的自定义提供商。 API 密钥由 Android 密钥库加密。
-- Lora AI 包括 Ubuntu 家庭或手机存储的项目选择、持久聊天、集成文本编辑器和滑动文件/工作区菜单。
+- ReDHawK AI 包括 Ubuntu 家庭或手机存储的项目选择、持久聊天、集成文本编辑器和滑动文件/工作区菜单。
 - 真正的工具调用可以列出、读取、搜索、创建、替换、移动、重命名和删除文件或文件夹，以及更改 POSIX 权限。每个路径都仅限于选定的项目，并且默认情况下更改会请求批准。
-- 提供商端点/模型、每个工具权限组、批准模式和自动保存可以稍后从 Lora AI 首选项中更改。
+- 提供商端点/模型、每个工具权限组、批准模式和自动保存可以稍后从 ReDHawK AI 首选项中更改。
 - 系统详细信息经过重新设计，包括实时包刷新、运行时卡、搜索、类别计数和 APT 更新候选指示器。
-- Web 控制台现在使用 LoraCode 的 VT 引擎、精确的浏览器大小、主题颜色和移动快捷方式，因此 OpenCode 渲染时不会出现 ANSI 伪影。
+- Web 控制台现在使用 ReDHawK Code 的 VT 引擎、精确的浏览器大小、主题颜色和移动快捷方式，因此 OpenCode 渲染时不会出现 ANSI 伪影。
 - Web 控制台现在使当前命令在移动键盘上方可见，使用 Enter 提交它并提供本地命令历史记录。
 - 修复了 Chromium/Brave 中的 Web 控制台连接、移动键盘焦点、IME 组合和自动重新连接。
 - OpenCode 现在会跟随终端高度变化，并在键盘关闭或手机旋转时填充整个可用屏幕。
@@ -33,7 +33,7 @@
 
 ## 劳拉人工智能工具
 
-从主菜单中选择 **Lora AI**，连接一个提供商并选择一个项目文件夹。代理公开这些项目范围的工具：
+从主菜单中选择 **ReDHawK AI**，连接一个提供商并选择一个项目文件夹。代理公开这些项目范围的工具：
 
 ```text
 list_files      read_file        search_files
@@ -51,12 +51,12 @@ Ubuntu 是强制性的。 Node.js/npm 和 Python 是可选的，可以在安装�
 1. 选择 Ubuntu 版本。
 2. （可选）选择 Node.js/npm 版本。
 3. （可选）选择 Python 版本。
-4. 按 **安装设置** 并保持 LoraCode 运行。
+4. 按 **安装设置** 并保持 ReDHawK Code 运行。
 5.每个组件都有自己的百分比进度条和后台终端输出。
 
 ## 手机存储访问
 
-Run this inside the Ubuntu terminal. LoraCode 打开 Android 存储设置，等待许可并自动继续。
+Run this inside the Ubuntu terminal. ReDHawK Code 打开 Android 存储设置，等待许可并自动继续。
 
 ```bash
 loracode-setup-storage
@@ -138,7 +138,7 @@ deactivate
 kali-install
 ```
 
-第一次安装会下载官方最小 ARM64 根文件系统。在较旧的 LoraCode Kali 安装上运行相同的命令可以修复存储库和工具，而无需再次下载根文件系统。
+第一次安装会下载官方最小 ARM64 根文件系统。在较旧的 ReDHawK Code Kali 安装上运行相同的命令可以修复存储库和工具，而无需再次下载根文件系统。
 
 使用以下任意别名打开 Kali：
 
@@ -219,7 +219,7 @@ pkg update
 
 ### 
 
-在现有应用程序上安装最新的 LoraCode APK。从版本 3.31 开始，包含 ARM64 PTY 桥和会话生命周期修复。
+在现有应用程序上安装最新的 ReDHawK Code APK。从版本 3.31 开始，包含 ARM64 PTY 桥和会话生命周期修复。
 
 ### 存储不可见
 

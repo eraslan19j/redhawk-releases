@@ -1,17 +1,17 @@
-# LoraCode 3.40.0
+# ReDHawK Code 3.40.0
 
 **Mobile Linux-Arbeitsumgebung für Android** — Ubuntu, Node.js, npm, Python und optional Kali Linux in einer App.
 
-> Aktualisiert am 11. August 2026. Lange Installationen laufen im Hintergrund weiter; LoraCode darf dabei nicht erzwungen beendet werden.
+> Aktualisiert am 11. August 2026. Lange Installationen laufen im Hintergrund weiter; ReDHawK Code darf dabei nicht erzwungen beendet werden.
 
 ## Neu in dieser Version
 
-- Direkt unter Terminal wurde der moderne Agent-Arbeitsbereich **Lora AI** ergänzt.
+- Direkt unter Terminal wurde der moderne Agent-Arbeitsbereich **ReDHawK AI** ergänzt.
 - Unterstützt werden OpenAI, Claude, Grok, Gemini, OpenCode Zen und eigene OpenAI-kompatible Anbieter; API-Schlüssel werden im Android Keystore verschlüsselt.
 - Projektauswahl, Chat, Texteditor und ein verschiebbares Datei-/Arbeitsbereichsmenü sind integriert.
 - Datei- und Ordnerwerkzeuge bleiben auf das gewählte Projekt beschränkt und fragen standardmäßig vor Änderungen nach.
 - Systemdetails wurden mit Live-Paketaktualisierung, Laufzeitkarten, Suche, Kategoriezählern und APT-Updatehinweisen neu gestaltet.
-- Die Webkonsole verwendet jetzt LoraCodes VT-Engine, exakte Browsermaße, passende Farben und mobile Kurzbefehle; OpenCode erscheint ohne ANSI-Artefakte.
+- Die Webkonsole verwendet jetzt ReDHawK Codes VT-Engine, exakte Browsermaße, passende Farben und mobile Kurzbefehle; OpenCode erscheint ohne ANSI-Artefakte.
 - Die Webkonsole hält den aktuellen Befehl über der mobilen Tastatur sichtbar, sendet ihn mit Enter und bietet einen lokalen Befehlsverlauf.
 - Webkonsolen-Verbindung in Chromium/Brave, Fokus der mobilen Tastatur, IME-Eingabe und automatische Wiederverbindung wurden korrigiert.
 - OpenCode folgt jetzt jeder Größenänderung des Terminals und füllt nach dem Schließen der Tastatur oder dem Drehen des Telefons den gesamten verfügbaren Bildschirm.
@@ -35,7 +35,7 @@ loracode-setup-storage
 
 - `/sdcard` — gemeinsam genutzter Telefonspeicher.
 - `/storage` — Android-Speichervolumes.
-- `/hostdata` — private LoraCode-Brückendateien.
+- `/hostdata` — private ReDHawK Code-Brückendateien.
 
 ## Ubuntu-Befehle
 

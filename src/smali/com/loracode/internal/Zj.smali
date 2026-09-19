@@ -2754,7 +2754,7 @@
 
     .line 705
     .line 706
-    const-string v7, "Run a cancellable command in the active Lora AI Linux project while Jarvis stays in the background. Requires Terminal Runner permission."
+    const-string v7, "Run a cancellable command in the active ReDHawK AI Linux project while Jarvis stays in the background. Requires Terminal Runner permission."
 
     .line 707
     .line 708

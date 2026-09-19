@@ -1,17 +1,17 @@
-# LoraCode 3.40.0
+# ReDHawK Code 3.40.0
 
 **Espace Linux mobile pour Android** — Ubuntu, Node.js, npm, Python et Kali Linux facultatif dans une seule application.
 
-> Mise à jour : 11 août 2026. Les installations longues continuent en arrière-plan, mais LoraCode ne doit pas être forcé à s’arrêter.
+> Mise à jour : 11 août 2026. Les installations longues continuent en arrière-plan, mais ReDHawK Code ne doit pas être forcé à s’arrêter.
 
 ## Nouveautés
 
-- L’espace d’agent moderne **Lora AI** a été ajouté directement sous Terminal.
+- L’espace d’agent moderne **ReDHawK AI** a été ajouté directement sous Terminal.
 - OpenAI, Claude, Grok, Gemini, OpenCode Zen et les fournisseurs personnalisés compatibles OpenAI sont pris en charge ; les clés API sont chiffrées par Android Keystore.
 - Sélection de projet, chat, éditeur de texte et menu latéral Fichier/Espace de travail sont intégrés.
 - Les outils de fichiers et dossiers restent limités au projet choisi et demandent une confirmation par défaut.
 - Les détails système ont été repensés avec l’actualisation en direct des paquets, les cartes d’environnement, la recherche, les compteurs et les mises à jour APT disponibles.
-- La console Web utilise désormais le moteur VT de LoraCode, les dimensions exactes du navigateur, des couleurs cohérentes et des raccourcis mobiles ; OpenCode s’affiche sans artefacts ANSI.
+- La console Web utilise désormais le moteur VT de ReDHawK Code, les dimensions exactes du navigateur, des couleurs cohérentes et des raccourcis mobiles ; OpenCode s’affiche sans artefacts ANSI.
 - La console Web garde la commande actuelle visible au-dessus du clavier mobile, l’envoie avec Entrée et fournit un historique local.
 - Correction de la connexion de la console Web dans Chromium/Brave, du focus du clavier mobile, de la saisie IME et de la reconnexion automatique.
 - OpenCode suit désormais les changements de hauteur du terminal et remplit tout l’écran disponible après la fermeture du clavier ou la rotation du téléphone.
@@ -35,7 +35,7 @@ loracode-setup-storage
 
 - `/sdcard` — stockage partagé du téléphone.
 - `/storage` — volumes Android.
-- `/hostdata` — fichiers privés du pont LoraCode.
+- `/hostdata` — fichiers privés du pont ReDHawK Code.
 
 ## Commandes Ubuntu
 

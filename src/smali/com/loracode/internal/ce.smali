@@ -3135,7 +3135,7 @@
 
     .line 11
     .line 12
-    const-string v1, "Mozilla/5.0 (Linux; Android 14) LoraCode/1.1"
+    const-string v1, "Mozilla/5.0 (Linux; Android 14) ReDHawK Code/1.1"
 
     .line 13
     .line 14

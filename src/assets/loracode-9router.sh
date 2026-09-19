@@ -1,16 +1,16 @@
 #!/bin/bash
 
-shared_tools=${LORACODE_TOOLS:-"${LORACODE_INVENTORY:-/hostdata/.loracodefile}/tools"}
-real_9router=${LORACODE_9ROUTER_BIN:-"$shared_tools/bin/9router"}
-real_npm=${LORACODE_REAL_NPM:-/usr/bin/npm}
-real_node=${LORACODE_REAL_NODE:-/usr/bin/node}
-node_compat=${LORACODE_NODE_COMPAT:-/usr/local/lib/loracode/node-compat.cjs}
+shared_tools=${ReDHawK Code_TOOLS:-"${ReDHawK Code_INVENTORY:-/hostdata/.loracodefile}/tools"}
+real_9router=${ReDHawK Code_9ROUTER_BIN:-"$shared_tools/bin/9router"}
+real_npm=${ReDHawK Code_REAL_NPM:-/usr/bin/npm}
+real_node=${ReDHawK Code_REAL_NODE:-/usr/bin/node}
+node_compat=${ReDHawK Code_NODE_COMPAT:-/usr/local/lib/loracode/node-compat.cjs}
 if [ ! -x "$real_9router" ]; then
   echo '9router is not installed. Run: npm install -g 9router' >&2
   exit 127
 fi
 
-runtime_dir="${LORACODE_9ROUTER_RUNTIME:-$shared_tools/9router-runtime}"
+runtime_dir="${ReDHawK Code_9ROUTER_RUNTIME:-$shared_tools/9router-runtime}"
 runtime_modules="$runtime_dir/node_modules"
 sqljs_dir="$runtime_modules/sql.js"
 sqljs_wasm="$sqljs_dir/dist/sql-wasm.wasm"
@@ -19,7 +19,7 @@ bundled_sqljs_dir="$bundled_modules/sql.js"
 bundled_sqljs_wasm="$bundled_sqljs_dir/dist/sql-wasm.wasm"
 
 if [ ! -s "$sqljs_wasm" ] && [ ! -s "$bundled_sqljs_wasm" ]; then
-  echo 'LoraCode: preparing the ARM64-safe sql.js database engine...'
+  echo 'ReDHawK Code: preparing the ARM64-safe sql.js database engine...'
   mkdir -p -- "$runtime_modules" || exit 1
   rm -rf -- "$sqljs_dir"
   shopt -s nullglob
@@ -50,10 +50,10 @@ if [ ! -s "$sqljs_wasm" ] && [ ! -s "$bundled_sqljs_wasm" ]; then
   repair_status=$?
 
   if [ -s "$sqljs_wasm" ]; then
-    echo 'LoraCode: sql.js database engine is ready.'
+    echo 'ReDHawK Code: sql.js database engine is ready.'
   else
     cat "$repair_log" >&2
-    echo "LoraCode: 9router SQLite repair failed (npm status $repair_status)." >&2
+    echo "ReDHawK Code: 9router SQLite repair failed (npm status $repair_status)." >&2
     exit "${repair_status:-1}"
   fi
 fi
@@ -63,7 +63,7 @@ fi
 # native Node honors for CommonJS but ESM/bundlers may not consult.
 if [ ! -s "$bundled_sqljs_wasm" ]; then
   if [ ! -s "$sqljs_wasm" ]; then
-    echo 'LoraCode: sql.js was not available for the 9router server bundle.' >&2
+    echo 'ReDHawK Code: sql.js was not available for the 9router server bundle.' >&2
     exit 1
   fi
   mkdir -p -- "$bundled_modules" || exit 1
@@ -78,7 +78,7 @@ if [ ! -s "$bundled_sqljs_wasm" ]; then
 fi
 
 if [ ! -s "$bundled_sqljs_wasm" ]; then
-  echo 'LoraCode: the 9router sql.js bundle could not be verified.' >&2
+  echo 'ReDHawK Code: the 9router sql.js bundle could not be verified.' >&2
   exit 1
 fi
 
@@ -95,7 +95,7 @@ if [ -r "$node_compat" ]; then
 fi
 
 if [ ! -x "$real_node" ]; then
-  echo 'LoraCode: Node.js is unavailable.' >&2
+  echo 'ReDHawK Code: Node.js is unavailable.' >&2
   exit 127
 fi
 if ! (
@@ -113,7 +113,7 @@ if ! (
     });
   '
 ); then
-  echo 'LoraCode: sql.js exists but failed its startup check.' >&2
+  echo 'ReDHawK Code: sql.js exists but failed its startup check.' >&2
   exit 1
 fi
 
@@ -125,7 +125,7 @@ if [ -f "$oauth_route" ] && ! (
   cd "$shared_tools/lib/node_modules/9router/app" || exit 1
   "$real_node" -e 'require(process.argv[1])' "$oauth_route"
 ); then
-  echo 'LoraCode: 9router OAuth runtime failed its startup check.' >&2
+  echo 'ReDHawK Code: 9router OAuth runtime failed its startup check.' >&2
   exit 1
 fi
 

@@ -1804,7 +1804,7 @@
 
     .line 25
     .line 26
-    const-string v1, "LoraCode  \u2022  "
+    const-string v1, "ReDHawK Code  \u2022  "
 
     .line 27
     .line 28

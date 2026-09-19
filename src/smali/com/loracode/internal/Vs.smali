@@ -64,7 +64,7 @@
 
     .line 2
     .line 3
-    const-string v1, ".loracode.json"
+    const-string v1, ".redhawk.json"
 
     .line 4
     .line 5
@@ -384,7 +384,7 @@
     .line 37
     .line 38
     :goto_1
-    const-string v2, "loracode-managed"
+    const-string v2, "redhawk-managed"
 
     .line 39
     .line 40

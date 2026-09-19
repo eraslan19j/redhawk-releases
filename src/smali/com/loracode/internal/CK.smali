@@ -2410,7 +2410,7 @@
 
     .line 131
     .line 132
-    const-string v11, "LoraCode/3.52 (Android webpage reader)"
+    const-string v11, "ReDHawK Code/3.52 (Android webpage reader)"
 
     .line 133
     .line 134
@@ -3536,7 +3536,7 @@
 
     .line 124
     .line 125
-    const-string v10, "LoraCode/3.52 (Android web search)"
+    const-string v10, "ReDHawK Code/3.52 (Android web search)"
 
     .line 126
     .line 127
@@ -4999,7 +4999,7 @@
 
     .line 75
     .line 76
-    const-string v6, "Mozilla/5.0 (Android; LoraCode web search)"
+    const-string v6, "Mozilla/5.0 (Android; ReDHawK Code web search)"
 
     .line 77
     .line 78

@@ -1278,11 +1278,11 @@
 
     .line 598
     :cond_9
-    const/4 v8, 0x0
+    const v8, 0x7fffffff
 
     .line 599
     :goto_8
-    const-string v10, "Lora"
+    const-string v10, "ReDHawK AI"
 
     .line 600
     .line 601
@@ -1331,11 +1331,11 @@
 
     .line 623
     :cond_a
-    const/4 v1, 0x0
+    const v1, 0x7fffffff
 
     .line 624
     :goto_9
-    const-string v10, "Jarvis"
+    const-string v10, "Jarvis Eye"
 
     .line 625
     .line 626

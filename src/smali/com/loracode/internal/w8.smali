@@ -1214,7 +1214,7 @@
 
     .line 20
     .line 21
-    const-string v3, "#!/usr/bin/env python3\n# Fallback strings/strings2 utility for LoraCode PRoot\nimport sys\nimport re\n\ndef main():\n    if len(sys.argv) < 2:\n        sys.exit(0)\n    for path in sys.argv[1:]:\n        if path.startswith(\"-\"):\n            continue\n        try:\n            with open(path, \"rb\") as f:\n                data = f.read()\n                matches = re.findall(rb\"[\\x20-\\x7E]{4,}\", data)\n                for m in matches:\n                    print(m.decode(\"ascii\", errors=\"ignore\"))\n        except Exception:\n            pass\n\nif __name__ == \"__main__\":\n    main()\n"
+    const-string v3, "#!/usr/bin/env python3\n# Fallback strings/strings2 utility for ReDHawK Code PRoot\nimport sys\nimport re\n\ndef main():\n    if len(sys.argv) < 2:\n        sys.exit(0)\n    for path in sys.argv[1:]:\n        if path.startswith(\"-\"):\n            continue\n        try:\n            with open(path, \"rb\") as f:\n                data = f.read()\n                matches = re.findall(rb\"[\\x20-\\x7E]{4,}\", data)\n                for m in matches:\n                    print(m.decode(\"ascii\", errors=\"ignore\"))\n        except Exception:\n            pass\n\nif __name__ == \"__main__\":\n    main()\n"
 
     .line 22
     .line 23
@@ -3953,7 +3953,7 @@
     move-result-object v0
 
     .line 35
-    const-string v2, "Claude Code CLI Shim for LoraCode"
+    const-string v2, "Claude Code CLI Shim for ReDHawK Code"
 
     .line 36
     .line 37

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="center" android:height="88.0dip" android:width="88.0dip" android:drawable="@drawable/lora_mark_transparent" />
-    <item android:drawable="@drawable/ic_launcher_glass_highlight" />
-</layer-list>

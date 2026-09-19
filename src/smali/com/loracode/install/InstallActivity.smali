@@ -8157,7 +8157,7 @@
 
     .line 61
     .line 62
-    const-string v5, "LoraCode"
+    const-string v5, "ReDHawK Code"
 
     .line 63
     .line 64

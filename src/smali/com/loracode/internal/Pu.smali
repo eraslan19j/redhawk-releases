@@ -2493,7 +2493,7 @@
     .line 104
     .line 105
     .line 106
-    const-string v13, "LoraCode"
+    const-string v13, "ReDHawK Code"
 
     .line 107
     .line 108
@@ -2509,7 +2509,7 @@
 
     .line 113
     .line 114
-    const-string v14, "Lora AI"
+    const-string v14, "ReDHawK AI"
 
     .line 115
     .line 116

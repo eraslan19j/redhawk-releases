@@ -1946,7 +1946,7 @@
 
     .line 46
     .line 47
-    const-string p1, "\u001bP>|LoraCode 3.10\u001b\\"
+    const-string p1, "\u001bP>|ReDHawK Code 3.10\u001b\\"
 
     .line 48
     .line 49

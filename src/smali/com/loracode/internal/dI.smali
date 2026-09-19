@@ -397,7 +397,7 @@
 
     .line 18
     .line 19
-    const-string v7, "Lora AI"
+    const-string v7, "ReDHawK AI"
 
     .line 20
     .line 21
@@ -539,7 +539,7 @@
 
     .line 84
     :cond_3
-    const-string v7, "Lora AI \u00b7 Pergunta aguardando"
+    const-string v7, "ReDHawK AI \u00b7 Pergunta aguardando"
 
     .line 85
     .line 86
@@ -620,7 +620,7 @@
     .line 119
     .line 120
     :cond_6
-    const-string v7, "Lora AI \u00b7 Permiss\u00e3o necess\u00e1ria"
+    const-string v7, "ReDHawK AI \u00b7 Permiss\u00e3o necess\u00e1ria"
 
     .line 121
     .line 122
@@ -749,7 +749,7 @@
 
     .line 178
     :cond_a
-    const-string v7, "Lora AI \u00b7 \u7b49\u5f85\u95ee\u9898"
+    const-string v7, "ReDHawK AI \u00b7 \u7b49\u5f85\u95ee\u9898"
 
     .line 179
     .line 180
@@ -830,7 +830,7 @@
     .line 213
     .line 214
     :cond_d
-    const-string v7, "Lora AI \u00b7 \u9700\u8981\u6743\u9650"
+    const-string v7, "ReDHawK AI \u00b7 \u9700\u8981\u6743\u9650"
 
     .line 215
     .line 216
@@ -959,7 +959,7 @@
 
     .line 272
     :cond_11
-    const-string v7, "Lora AI \u00b7 \u041e\u0447\u0456\u043a\u0443\u0454\u0442\u044c\u0441\u044f \u043f\u0438\u0442\u0430\u043d\u043d\u044f"
+    const-string v7, "ReDHawK AI \u00b7 \u041e\u0447\u0456\u043a\u0443\u0454\u0442\u044c\u0441\u044f \u043f\u0438\u0442\u0430\u043d\u043d\u044f"
 
     .line 273
     .line 274
@@ -1040,7 +1040,7 @@
     .line 307
     .line 308
     :cond_14
-    const-string v7, "Lora AI \u00b7 \u041f\u043e\u0442\u0440\u0456\u0431\u0435\u043d \u0434\u043e\u0437\u0432\u0456\u043b"
+    const-string v7, "ReDHawK AI \u00b7 \u041f\u043e\u0442\u0440\u0456\u0431\u0435\u043d \u0434\u043e\u0437\u0432\u0456\u043b"
 
     .line 309
     .line 310
@@ -1169,7 +1169,7 @@
 
     .line 366
     :cond_18
-    const-string v7, "Lora AI \u00b7 Soru bekliyor"
+    const-string v7, "ReDHawK AI \u00b7 Soru bekliyor"
 
     .line 367
     .line 368
@@ -1250,7 +1250,7 @@
     .line 401
     .line 402
     :cond_1b
-    const-string v7, "Lora AI \u00b7 \u0130zin gerekiyor"
+    const-string v7, "ReDHawK AI \u00b7 \u0130zin gerekiyor"
 
     .line 403
     .line 404
@@ -1379,7 +1379,7 @@
 
     .line 460
     :cond_1f
-    const-string v7, "Lora AI \u00b7 \u041e\u0436\u0438\u0434\u0430\u0435\u0442\u0441\u044f \u0432\u043e\u043f\u0440\u043e\u0441"
+    const-string v7, "ReDHawK AI \u00b7 \u041e\u0436\u0438\u0434\u0430\u0435\u0442\u0441\u044f \u0432\u043e\u043f\u0440\u043e\u0441"
 
     .line 461
     .line 462
@@ -1460,7 +1460,7 @@
     .line 495
     .line 496
     :cond_22
-    const-string v7, "Lora AI \u00b7 \u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
+    const-string v7, "ReDHawK AI \u00b7 \u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
 
     .line 497
     .line 498
@@ -1589,7 +1589,7 @@
 
     .line 554
     :cond_26
-    const-string v7, "Lora AI \u00b7 Oczekuje pytanie"
+    const-string v7, "ReDHawK AI \u00b7 Oczekuje pytanie"
 
     .line 555
     .line 556
@@ -1670,7 +1670,7 @@
     .line 589
     .line 590
     :cond_29
-    const-string v7, "Lora AI \u00b7 Wymagana zgoda"
+    const-string v7, "ReDHawK AI \u00b7 Wymagana zgoda"
 
     .line 591
     .line 592
@@ -1799,7 +1799,7 @@
 
     .line 648
     :cond_2d
-    const-string v7, "Lora AI \u00b7 \u092a\u094d\u0930\u0936\u094d\u0928 \u092a\u094d\u0930\u0924\u0940\u0915\u094d\u0937\u093e\u0930\u0924 \u0939\u0948"
+    const-string v7, "ReDHawK AI \u00b7 \u092a\u094d\u0930\u0936\u094d\u0928 \u092a\u094d\u0930\u0924\u0940\u0915\u094d\u0937\u093e\u0930\u0924 \u0939\u0948"
 
     .line 649
     .line 650
@@ -1880,7 +1880,7 @@
     .line 683
     .line 684
     :cond_30
-    const-string v7, "Lora AI \u00b7 \u0905\u0928\u0941\u092e\u0924\u093f \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948"
+    const-string v7, "ReDHawK AI \u00b7 \u0905\u0928\u0941\u092e\u0924\u093f \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948"
 
     .line 685
     .line 686
@@ -2009,7 +2009,7 @@
 
     .line 742
     :cond_34
-    const-string v7, "Lora AI \u00b7 Question en attente"
+    const-string v7, "ReDHawK AI \u00b7 Question en attente"
 
     .line 743
     .line 744
@@ -2090,7 +2090,7 @@
     .line 777
     .line 778
     :cond_37
-    const-string v7, "Lora AI \u00b7 Autorisation requise"
+    const-string v7, "ReDHawK AI \u00b7 Autorisation requise"
 
     .line 779
     .line 780
@@ -2219,7 +2219,7 @@
 
     .line 836
     :cond_3b
-    const-string v7, "Lora AI \u00b7 Frage wartet"
+    const-string v7, "ReDHawK AI \u00b7 Frage wartet"
 
     .line 837
     .line 838
@@ -2300,7 +2300,7 @@
     .line 871
     .line 872
     :cond_3e
-    const-string v7, "Lora AI \u00b7 Berechtigung erforderlich"
+    const-string v7, "ReDHawK AI \u00b7 Berechtigung erforderlich"
 
     .line 873
     .line 874
@@ -2428,7 +2428,7 @@
 
     .line 929
     :cond_42
-    const-string v7, "Lora AI \u00b7 Sual g\u00f6zl\u0259yir"
+    const-string v7, "ReDHawK AI \u00b7 Sual g\u00f6zl\u0259yir"
 
     .line 930
     .line 931
@@ -2509,7 +2509,7 @@
     .line 964
     .line 965
     :cond_45
-    const-string v7, "Lora AI \u00b7 \u0130caz\u0259 t\u0259l\u0259b olunur"
+    const-string v7, "ReDHawK AI \u00b7 \u0130caz\u0259 t\u0259l\u0259b olunur"
 
     .line 966
     .line 967
@@ -2634,7 +2634,7 @@
 
     .line 1021
     :cond_48
-    const-string v7, "Lora AI \u00b7 Question waiting"
+    const-string v7, "ReDHawK AI \u00b7 Question waiting"
 
     .line 1022
     .line 1023
@@ -2714,7 +2714,7 @@
 
     .line 1056
     :cond_4b
-    const-string v7, "Lora AI \u00b7 Permission needed"
+    const-string v7, "ReDHawK AI \u00b7 Permission needed"
 
     .line 1057
     .line 1058
@@ -2819,7 +2819,7 @@
 
     .line 1101
     :cond_4f
-    const-string v7, "Lora AI \u00b7 \u0633\u0624\u0627\u0644 \u0642\u064a\u062f \u0627\u0644\u0627\u0646\u062a\u0638\u0627\u0631"
+    const-string v7, "ReDHawK AI \u00b7 \u0633\u0624\u0627\u0644 \u0642\u064a\u062f \u0627\u0644\u0627\u0646\u062a\u0638\u0627\u0631"
 
     .line 1102
     .line 1103
@@ -2896,7 +2896,7 @@
 
     .line 1133
     :cond_52
-    const-string v7, "Lora AI \u00b7 \u0627\u0644\u0625\u0630\u0646 \u0645\u0637\u0644\u0648\u0628"
+    const-string v7, "ReDHawK AI \u00b7 \u0627\u0644\u0625\u0630\u0646 \u0645\u0637\u0644\u0648\u0628"
 
     .line 1134
     .line 1135

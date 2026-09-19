@@ -7,7 +7,7 @@
     <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
     <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
     <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
-    <style name="Theme.LoraCode" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.ReDHAwKCode" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/bg_dark</item>
         <item name="android:textColorHighlight">@color/selection</item>
         <item name="android:windowAnimationStyle">@style/LoraQuickWindowAnimation</item>

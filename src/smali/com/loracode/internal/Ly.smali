@@ -7631,7 +7631,7 @@
     .line 26
     .line 27
     :try_start_0
-    const-string v2, "# LoraCode Inventory\n\nPersistent assets shared across Agent Workspace projects.\n\n- `tools/`: reusable CLIs, scripts and Python/npm user installs\n- `runs/`: command metadata and complete output logs\n- `terminal/`: bounded interactive terminal activity\n- `builds/`: archived APK outputs\n- `gradle-home/` and `cache/`: reusable build/download caches\n"
+    const-string v2, "# ReDHawK Code Inventory\n\nPersistent assets shared across Agent Workspace projects.\n\n- `tools/`: reusable CLIs, scripts and Python/npm user installs\n- `runs/`: command metadata and complete output logs\n- `terminal/`: bounded interactive terminal activity\n- `builds/`: archived APK outputs\n- `gradle-home/` and `cache/`: reusable build/download caches\n"
 
     .line 28
     .line 29
@@ -15356,7 +15356,7 @@
     new-instance v0, Lcom/loracode/internal/qH;
 
     .line 5
-    const-string v11, "Linux Ubuntu environment is not installed yet. Please complete Linux setup in LoraCode before running terminal commands."
+    const-string v11, "Linux Ubuntu environment is not installed yet. Please complete Linux setup in ReDHawK Code before running terminal commands."
 
     const/4 v12, 0x0
 
@@ -16085,7 +16085,7 @@
     :cond_8
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v2, "umask 0000\nmkdir -p \'/hostdata/.loracodefile/tools/bin\' \'/hostdata/.loracodefile/tools/npm\' \'/hostdata/.loracodefile/tools/python\' \'/hostdata/.loracodefile/cache/npm\' \'/hostdata/.loracodefile/cache/pip\' \'/hostdata/.loracodefile/gradle-home\' 2>/dev/null || true\nif [ ! -e /root/.gradle ] && [ -d /root ]; then ln -s \'/hostdata/.loracodefile/gradle-home\' /root/.gradle 2>/dev/null || true; fi\nexport DEBIAN_FRONTEND=noninteractive\nexport CI=true\nif [ -r /hostdata/agent-workspace/toolchain.env ]; then . /hostdata/agent-workspace/toolchain.env; fi\nexport LORACODE_INVENTORY=\'/hostdata/.loracodefile\'\nexport LORACODE_TOOLS=\'/hostdata/.loracodefile/tools\'\n"
+    const-string v2, "umask 0000\nmkdir -p \'/hostdata/.loracodefile/tools/bin\' \'/hostdata/.loracodefile/tools/npm\' \'/hostdata/.loracodefile/tools/python\' \'/hostdata/.loracodefile/cache/npm\' \'/hostdata/.loracodefile/cache/pip\' \'/hostdata/.loracodefile/gradle-home\' 2>/dev/null || true\nif [ ! -e /root/.gradle ] && [ -d /root ]; then ln -s \'/hostdata/.loracodefile/gradle-home\' /root/.gradle 2>/dev/null || true; fi\nexport DEBIAN_FRONTEND=noninteractive\nexport CI=true\nif [ -r /hostdata/agent-workspace/toolchain.env ]; then . /hostdata/agent-workspace/toolchain.env; fi\nexport ReDHawK Code_INVENTORY=\'/hostdata/.loracodefile\'\nexport ReDHawK Code_TOOLS=\'/hostdata/.loracodefile/tools\'\n"
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -16096,7 +16096,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v6, "export LORACODE_RUN_DIR="
+    const-string v6, "export ReDHawK Code_RUN_DIR="
 
     invoke-direct {v3, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -16108,7 +16108,7 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v2, "\nexport GRADLE_USER_HOME=\'/hostdata/.loracodefile/gradle-home\'\nexport GRADLE_OPTS=\"-Dorg.gradle.daemon=false -Dkotlin.compiler.execution.strategy=in-process -Dorg.gradle.vfs.watch=false -Dandroid.aapt2DaemonMode=false ${GRADLE_OPTS:-}\"\nexport JAVA_OPTS=\"-Xmx2048m -XX:MaxMetaspaceSize=512m ${JAVA_OPTS:-}\"\nexport NPM_CONFIG_CACHE=\'/hostdata/.loracodefile/cache/npm\'\nexport NPM_CONFIG_PREFIX=\'/hostdata/.loracodefile/tools/npm\'\nexport PIP_CACHE_DIR=\'/hostdata/.loracodefile/cache/pip\'\nexport PYTHONUSERBASE=\'/hostdata/.loracodefile/tools/python\'\nexport PIP_USER=1\nexport PYTHONPATH=\'/hostdata/.loracodefile/sdk/python:/hostdata/.loracodefile/tools/python/lib/python3/dist-packages:${PYTHONPATH:+$PYTHONPATH}\'\nexport NODE_PATH=\'/hostdata/.loracodefile/tools/npm/lib/node_modules\':${NODE_PATH:+$NODE_PATH}\nexport LORACODE_VSCODE_EXTENSIONS=\'/hostdata/vscode-extensions\'\nexport VSCODE_EXTENSIONS=\'/hostdata/vscode-extensions\'\n"
+    const-string v2, "\nexport GRADLE_USER_HOME=\'/hostdata/.loracodefile/gradle-home\'\nexport GRADLE_OPTS=\"-Dorg.gradle.daemon=false -Dkotlin.compiler.execution.strategy=in-process -Dorg.gradle.vfs.watch=false -Dandroid.aapt2DaemonMode=false ${GRADLE_OPTS:-}\"\nexport JAVA_OPTS=\"-Xmx2048m -XX:MaxMetaspaceSize=512m ${JAVA_OPTS:-}\"\nexport NPM_CONFIG_CACHE=\'/hostdata/.loracodefile/cache/npm\'\nexport NPM_CONFIG_PREFIX=\'/hostdata/.loracodefile/tools/npm\'\nexport PIP_CACHE_DIR=\'/hostdata/.loracodefile/cache/pip\'\nexport PYTHONUSERBASE=\'/hostdata/.loracodefile/tools/python\'\nexport PIP_USER=1\nexport PYTHONPATH=\'/hostdata/.loracodefile/sdk/python:/hostdata/.loracodefile/tools/python/lib/python3/dist-packages:${PYTHONPATH:+$PYTHONPATH}\'\nexport NODE_PATH=\'/hostdata/.loracodefile/tools/npm/lib/node_modules\':${NODE_PATH:+$NODE_PATH}\nexport ReDHawK Code_VSCODE_EXTENSIONS=\'/hostdata/vscode-extensions\'\nexport VSCODE_EXTENSIONS=\'/hostdata/vscode-extensions\'\n"
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -16119,7 +16119,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v6, "export LORACODE_ACTIVE_EXTENSION_PATHS="
+    const-string v6, "export ReDHawK Code_ACTIVE_EXTENSION_PATHS="
 
     invoke-direct {v3, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -16247,7 +16247,7 @@
     if-nez v19, :cond_a
 
     .line 87
-    const-string v1, "echo \'[LoraCode] gradlew executable biti yok; bash ./gradlew fallback kullaniliyor.\'\n"
+    const-string v1, "echo \'[ReDHawK Code] gradlew executable biti yok; bash ./gradlew fallback kullaniliyor.\'\n"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -22343,7 +22343,7 @@
     .line 65
     .line 66
     .line 67
-    const-string v3, "\' is disallowed by loracode.json workspace configuration."
+    const-string v3, "\' is disallowed by redhawk.json workspace configuration."
 
     .line 68
     .line 69
@@ -24150,7 +24150,7 @@
 
     .line 31
     .line 32
-    const-string v2, "loracode.json"
+    const-string v2, "redhawk.json"
 
     .line 33
     .line 34

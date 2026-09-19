@@ -1,17 +1,17 @@
-# LoraCode 3.40.0
+# ReDHawK Code 3.40.0
 
 **Mobilne środowisko Linux dla Androida** — Ubuntu, Node.js, npm, Python i opcjonalny Kali Linux w jednej aplikacji.
 
-> Aktualizacja: 11 sierpnia 2026. Długie instalacje działają w tle, ale nie wolno wymuszać zatrzymania LoraCode.
+> Aktualizacja: 11 sierpnia 2026. Długie instalacje działają w tle, ale nie wolno wymuszać zatrzymania ReDHawK Code.
 
 ## Co nowego
 
-- Bezpośrednio pod Terminalem dodano nowoczesny obszar agenta **Lora AI**.
+- Bezpośrednio pod Terminalem dodano nowoczesny obszar agenta **ReDHawK AI**.
 - Obsługiwane są OpenAI, Claude, Grok, Gemini, OpenCode Zen i własni dostawcy zgodni z OpenAI; klucze API szyfruje Android Keystore.
 - Dodano wybór projektu, czat, edytor tekstu i wysuwane menu Plik/Obszar roboczy.
 - Narzędzia plików i folderów są ograniczone do wybranego projektu i domyślnie pytają przed zmianami.
 - Szczegóły systemu przeprojektowano, dodając odświeżanie pakietów na żywo, karty środowisk, wyszukiwanie, liczniki kategorii i informacje o aktualizacjach APT.
-- Konsola internetowa korzysta teraz z silnika VT LoraCode, dokładnego rozmiaru przeglądarki, spójnych kolorów i skrótów mobilnych; OpenCode wyświetla się bez artefaktów ANSI.
+- Konsola internetowa korzysta teraz z silnika VT ReDHawK Code, dokładnego rozmiaru przeglądarki, spójnych kolorów i skrótów mobilnych; OpenCode wyświetla się bez artefaktów ANSI.
 - Konsola internetowa pokazuje bieżące polecenie nad klawiaturą mobilną, wysyła je klawiszem Enter i udostępnia lokalną historię poleceń.
 - Naprawiono połączenie konsoli internetowej w Chromium/Brave, fokus klawiatury mobilnej, wprowadzanie IME i automatyczne ponowne łączenie.
 - OpenCode śledzi teraz zmianę wysokości terminala i wypełnia cały dostępny ekran po zamknięciu klawiatury lub obróceniu telefonu.
@@ -35,7 +35,7 @@ loracode-setup-storage
 
 - `/sdcard` — współdzielona pamięć telefonu.
 - `/storage` — woluminy Androida.
-- `/hostdata` — prywatne pliki mostu LoraCode.
+- `/hostdata` — prywatne pliki mostu ReDHawK Code.
 
 ## Polecenia Ubuntu
 

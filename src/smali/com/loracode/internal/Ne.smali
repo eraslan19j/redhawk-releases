@@ -895,7 +895,7 @@
 
     .line 50
     .line 51
-    const-string v1, "\n            set -e\n            export HOME=/root USER=root LOGNAME=root PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\n            apk update\n            apk add --no-cache bash ca-certificates curl git openssh-client python3 py3-pip nodejs npm\n            update-ca-certificates 2>/dev/null || true\n            printf \'%s\\n\' \'export TERM=xterm-256color\' \'export LANG=C.UTF-8\' \'alias ll=\"ls -la\"\' > /root/.profile\n            printf \'LoraCode Alpine "
+    const-string v1, "\n            set -e\n            export HOME=/root USER=root LOGNAME=root PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\n            apk update\n            apk add --no-cache bash ca-certificates curl git openssh-client python3 py3-pip nodejs npm\n            update-ca-certificates 2>/dev/null || true\n            printf \'%s\\n\' \'export TERM=xterm-256color\' \'export LANG=C.UTF-8\' \'alias ll=\"ls -la\"\' > /root/.profile\n            printf \'ReDHawK Code Alpine "
 
     .line 52
     .line 53
@@ -7940,7 +7940,7 @@
     move-result-object v0
 
     .line 1002
-    const-string v3, "Lora AI: "
+    const-string v3, "ReDHawK AI: "
 
     .line 1003
     .line 1004

@@ -146,7 +146,7 @@
 
     .line 12
     .line 13
-    const-string v6, "LoraCode-Android"
+    const-string v6, "ReDHawK Code-Android"
 
     .line 14
     .line 15
@@ -731,7 +731,7 @@
 
     .line 295
     .line 296
-    const-string v5, " || exit 4\n                git branch -M main >/dev/null 2>&1 || true\n                git add -A >/dev/null 2>&1 || true\n                git -c user.name=LoraCode -c user.email=noreply@loracode.local \\\n                    commit --allow-empty -m \'Initial LoraCode workspace snapshot\' --no-gpg-sign >/dev/null 2>&1 || true\n                echo \'Remote origin linked to\' "
+    const-string v5, " || exit 4\n                git branch -M main >/dev/null 2>&1 || true\n                git add -A >/dev/null 2>&1 || true\n                git -c user.name=ReDHawK Code -c user.email=noreply@loracode.local \\\n                    commit --allow-empty -m \'Initial ReDHawK Code workspace snapshot\' --no-gpg-sign >/dev/null 2>&1 || true\n                echo \'Remote origin linked to\' "
 
     .line 297
     .line 298
@@ -1431,7 +1431,7 @@
     move-result-object v0
 
     .line 632
-    const-string v2, "LoraCode/4.02.02 (Android; Mobile)"
+    const-string v2, "ReDHawK Code/4.02.02 (Android; Mobile)"
 
     .line 633
     .line 634

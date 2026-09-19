@@ -6863,7 +6863,7 @@
 
     .line 244
     .line 245
-    const-string v1, "Lora AI"
+    const-string v1, "ReDHawK AI"
 
     .line 246
     .line 247

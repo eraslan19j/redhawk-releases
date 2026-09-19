@@ -21,7 +21,7 @@
     <string name="abc_searchview_description_voice">بحث صوتي</string>
     <string name="abc_toolbar_collapse_description">تصغير</string>
     <string name="access_account_button">الاستمرار في الحساب</string>
-    <string name="access_banned">غير مسموح لهذا الحساب باستخدام LoraCode.</string>
+    <string name="access_banned">غير مسموح لهذا الحساب باستخدام ReDHawK Code.</string>
     <string name="access_checking_limit">جارٍ التحقق من حد الاستخدام…</string>
     <string name="access_creating_link">إنشاء رابط آمن...</string>
     <string name="access_drawer_section">ACCOUNT &amp; LIMITS</string>
@@ -43,14 +43,14 @@
     <string name="access_server_http_error">أرجعت خدمة الوصول خطأ. حاول ثانية.</string>
     <string name="access_server_timeout">استغرق الاتصال وقتا طويلا. تحقق من شبكتك وحاول مرة أخرى.</string>
     <string name="access_server_unavailable">خدمة الوصول غير متاحة مؤقتًا. حاول مرة أخرى بعد قليل.</string>
-    <string name="access_subtitle">مطلوب التحقق من Telegram قبل استخدام Lora AI أو Jarvis. جلسة الروبوت الخاصة بك محمية بواسطة الخادم.</string>
+    <string name="access_subtitle">مطلوب التحقق من Telegram قبل استخدام ReDHawK AI أو Jarvis. جلسة الروبوت الخاصة بك محمية بواسطة الخادم.</string>
     <string name="access_telegram_button">تواصل مع برقية</string>
     <string name="access_telegram_subtitle">يقوم تحدي روبوت Telegram الآمن بربط حسابك دون تخزين رمز بوت مميز في التطبيق.</string>
     <string name="access_telegram_title">تواصل مع برقية</string>
     <string name="access_title">الوصول إلى برقية</string>
     <string name="access_token_reset_note">نوافذ الاستخدام المباشر</string>
     <string name="access_tokens_jarvis">Jarvis</string>
-    <string name="access_tokens_lora">Lora AI</string>
+    <string name="access_tokens_lora">ReDHawK AI</string>
     <string name="access_tokens_remaining">%1$d%%المتبقي</string>
     <string name="access_tokens_remaining_short">%1$d%%</string>
     <string name="access_tokens_unlimited">غير محدود</string>
@@ -198,7 +198,7 @@
     <string name="ai_diff_subtitle">يتم عرض الخطوط المحذوفة والمضافة فقط.</string>
     <string name="ai_diff_truncated">%1$dلخطوط%2$dمعروضة</string>
     <string name="ai_discard">تجاهل</string>
-    <string name="ai_disclaimer">"يمكن أن ترتكب Lora AI أخطاء.
+    <string name="ai_disclaimer">"يمكن أن ترتكب ReDHawK AI أخطاء.
 يُرجى التحقق جيدًا من الردود."</string>
     <string name="ai_dislike">لا يعجبني الرد</string>
     <string name="ai_done">تم</string>
@@ -433,13 +433,13 @@
     <string name="ai_provider_failover">المزود مشغول؛ إعادة المحاولة باستخدام%1$s...</string>
     <string name="ai_provider_model">%1$s·%2$s</string>
     <string name="ai_provider_model_context">%1$s·%2$s·%3$s</string>
-    <string name="ai_provider_overloaded">تم تحميل الموفر بشكل زائد مؤقتًا. جربت Lora AI الطرق المتاحة؛ يرجى إعادة المحاولة خلال دقيقة أو اختيار نموذج آخر.</string>
+    <string name="ai_provider_overloaded">تم تحميل الموفر بشكل زائد مؤقتًا. جربت ReDHawK AI الطرق المتاحة؛ يرجى إعادة المحاولة خلال دقيقة أو اختيار نموذج آخر.</string>
     <string name="ai_provider_profiles_add">إضافة مزود</string>
     <string name="ai_provider_profiles_edit">تحرير الموفر</string>
     <string name="ai_provider_profiles_empty">لم يتم حفظ أي ملفات تعريف للموفر حتى الآن.</string>
     <string name="ai_provider_profiles_eyebrow">اتصالات</string>
     <string name="ai_provider_profiles_limit">Sinirsiz profil / Unlimited</string>
-    <string name="ai_provider_profiles_managed">تحت إدارة LoraCode</string>
+    <string name="ai_provider_profiles_managed">تحت إدارة ReDHawK Code</string>
     <string name="ai_provider_profiles_remove">إزالة</string>
     <string name="ai_provider_profiles_remove_body">ستتم إزالة ملف التعريف \"%1$s\" من هذا الجهاز.</string>
     <string name="ai_provider_profiles_remove_title">هل تريد إزالة المزوّد؟</string>
@@ -462,7 +462,7 @@
     <string name="ai_quick_action_workspace">مساحة العمل (المشروع)</string>
     <string name="ai_quick_action_workspace_sub">اختر أو قم بتبديل جذر المشروع</string>
     <string name="ai_quick_actions_title">الإجراءات والأدوات السريعة</string>
-    <string name="ai_rate_error">رفض الموفر الطلب بسبب الوصول إلى حد الحساب أو السعة الخاص به. توقفت Lora AI بشكل نظيف بدلاً من الانتظار إلى الأبد؛ حاول مرة أخرى قريبًا أو اختر مزودًا آخر.</string>
+    <string name="ai_rate_error">رفض الموفر الطلب بسبب الوصول إلى حد الحساب أو السعة الخاص به. توقفت ReDHawK AI بشكل نظيف بدلاً من الانتظار إلى الأبد؛ حاول مرة أخرى قريبًا أو اختر مزودًا آخر.</string>
     <string name="ai_read_aloud">اقرأ بصوت عالٍ</string>
     <string name="ai_reasoning_desc_extra_high">المنطق المتقدم للتعليمات البرمجية المعقدة</string>
     <string name="ai_reasoning_desc_high">تفكير عميق، وتحليل شامل</string>
@@ -524,7 +524,7 @@
     <string name="ai_response_thinking">استخدم التفكير</string>
     <string name="ai_response_used_model">مستعملة%1$s</string>
     <string name="ai_result_link">النتيجة المفتوحة:%1$s</string>
-    <string name="ai_retry_wait">المزود مشغول مؤقتًا؛ ستستمر Lora AI في محاولة%1$d%2$d</string>
+    <string name="ai_retry_wait">المزود مشغول مؤقتًا؛ ستستمر ReDHawK AI في محاولة%1$d%2$d</string>
     <string name="ai_review_change">مراجعة التغييرات</string>
     <string name="ai_rules">القواعد</string>
     <string name="ai_rules_active">قواعد%1$dنشطة</string>
@@ -600,7 +600,7 @@
     <string name="ai_terminal_quick_empty">اكتب أمرًا بعد !، على سبيل المثال: ! ليرة سورية</string>
     <string name="ai_terminal_runner">عداء المحطة الطرفية</string>
     <string name="ai_terminal_runner_off">تم تعطيل مشغل المحطة الطرفية.</string>
-    <string name="ai_terminal_runner_on">تم تمكين برنامج تشغيل المحطة الطرفية. يمكن لـ Lora AI الآن تشغيل الأوامر الطرفية.</string>
+    <string name="ai_terminal_runner_on">تم تمكين برنامج تشغيل المحطة الطرفية. يمكن لـ ReDHawK AI الآن تشغيل الأوامر الطرفية.</string>
     <string name="ai_thinking">التفكير…</string>
     <string name="ai_thought_process">عملية التفكير</string>
     <string name="ai_timeout_error">استغرق الموفر وقتًا طويلاً للرد. تحقق من اتصالك وحاول مرة أخرى.</string>
@@ -651,7 +651,7 @@
     <string name="ai_web_searching">البحث</string>
     <string name="ai_web_source">المصدر</string>
     <string name="ai_web_visited">مواقع%1$d</string>
-    <string name="ai_welcome_body">اختر مشروعًا، وقم بوصف ما تحتاجه، ويمكن لـ Lora AI فحص ملفاته وتحريرها باستخدام استدعاء الأداة.</string>
+    <string name="ai_welcome_body">اختر مشروعًا، وقم بوصف ما تحتاجه، ويمكن لـ ReDHawK AI فحص ملفاته وتحريرها باستخدام استدعاء الأداة.</string>
     <string name="ai_welcome_evening">مساء الخير،%1$s</string>
     <string name="ai_welcome_guest_name">هناك</string>
     <string name="ai_welcome_joke_1">المحطة مستيقظة. ويرفض الاعتراف بالسبب.</string>
@@ -662,7 +662,7 @@
     <string name="ai_welcome_noon">مساء الخير،%1$s</string>
     <string name="ai_welcome_title">مرحباً يا بومة الليل</string>
     <string name="ai_workspace_applying_code">تطبيق الكود السابق على المشروع</string>
-    <string name="ai_workspace_config_title">تكوين loracode.json</string>
+    <string name="ai_workspace_config_title">تكوين redhawk.json</string>
     <string name="ai_workspace_invalid">ملف مساحة العمل هذا غير صالح أو أن مشروعه لم يعد موجودًا.</string>
     <string name="ai_workspace_no_executable_change">لم يُرجع الموفر أي تغيير في المشروع قابل للتنفيذ. تم ترك المشروع دون تغيير.</string>
     <string name="ai_workspace_reading">مشروع القراءة:%1$s</string>
@@ -672,7 +672,7 @@
     <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">مفتاح المرور</string>
     <string name="announcements_live">مباشر</string>
     <string name="announcements_refresh">تحديث</string>
-    <string name="app_name">LoraCode</string>
+    <string name="app_name">ReDHawK Code</string>
     <string name="auth_account_control_action">التحكم في الحساب / إدارة مقدمي الخدمات</string>
     <string name="auth_change_email_action">تغيير البريد الإلكتروني</string>
     <string name="auth_code_hint">رمز مكون من 6 أرقام</string>
@@ -700,7 +700,7 @@
     <string name="auth_error_rate_limit">محاولات كثيرة جدًا. انتظر لحظة وحاول مرة أخرى.</string>
     <string name="auth_error_server">خدمة المصادقة غير متاحة مؤقتًا.</string>
     <string name="auth_error_sign_in">البريد الإلكتروني أو كلمة المرور غير صحيحة.</string>
-    <string name="auth_error_update_required">يرجى تحديث LoraCode إلى الإصدار الأحدث لتسجيل الدخول.</string>
+    <string name="auth_error_update_required">يرجى تحديث ReDHawK Code إلى الإصدار الأحدث لتسجيل الدخول.</string>
     <string name="auth_github_action">تواصل مع جيثب</string>
     <string name="auth_github_connected">متصل على جيثب</string>
     <string name="auth_github_link_error">لا يمكن ربط حساب GitHub.</string>
@@ -728,7 +728,7 @@
     <string name="auth_sign_in_action">تسجيل الدخول</string>
     <string name="auth_subtitle">قم بتسجيل الدخول أو إنشاء حساب باستخدام البريد الإلكتروني أو Google أو GitHub.</string>
     <string name="auth_title">مرحبا بكم في لورا كود</string>
-    <string name="auth_verified">تم التحقق من البريد الإلكتروني. جارٍ فتح LoraCode...</string>
+    <string name="auth_verified">تم التحقق من البريد الإلكتروني. جارٍ فتح ReDHawK Code...</string>
     <string name="auth_verify_code_action">التحقق من الرمز</string>
     <string name="auth_verifying">جارٍ التحقق…</string>
     <string name="bottomsheet_action_collapse">تصغير البطاقة السفلية</string>
@@ -819,20 +819,20 @@
     <string name="git_pull">جيت بول</string>
     <string name="git_push">جيت بوش</string>
     <string name="git_repo_url_hint">عنوان URL للمستودع (git@github.com:...)</string>
-    <string name="home_account_description">إدارة هوية LoraCode المحلية الخاصة بك</string>
+    <string name="home_account_description">إدارة هوية ReDHawK Code المحلية الخاصة بك</string>
     <string name="home_account_title">حسابي</string>
     <string name="home_agent_workspace_description">افتح مساحة عمل الذكاء الاصطناعي المدركة للمشروع</string>
     <string name="home_agent_workspace_title">مساحة عمل الوكيل</string>
     <string name="home_ai_description">افتح وكيل الترميز المدرك للمشروع</string>
-    <string name="home_ai_title">Lora AI</string>
+    <string name="home_ai_title">ReDHawK AI</string>
     <string name="home_alpine_description">قم بتثبيت مساحة العمل الرسمية ARM64 خفيفة الوزن</string>
     <string name="home_alpine_ready">افتح مساحة عمل Alpine الجاهزة باستخدام apk وNode وPython</string>
     <string name="home_alpine_title">Alpine Linux</string>
-    <string name="home_announcements_description">تحديثات الأخبار والخدمة من LoraCode</string>
+    <string name="home_announcements_description">تحديثات الأخبار والخدمة من ReDHawK Code</string>
     <string name="home_announcements_empty">لا توجد إعلانات حتى الآن.</string>
     <string name="home_announcements_error">لا يمكن تحميل الإعلانات.</string>
     <string name="home_announcements_loading">جارٍ تحميل الإعلانات…</string>
-    <string name="home_announcements_subtitle">آخر التحديثات من فريق LoraCode</string>
+    <string name="home_announcements_subtitle">آخر التحديثات من فريق ReDHawK Code</string>
     <string name="home_announcements_title">إعلانات</string>
     <string name="home_community_description">الأخبار والنشرات والتحديثات من المجتمع</string>
     <string name="home_community_title">إعلانات المجتمع</string>
@@ -849,7 +849,7 @@
     <string name="home_python_missing">لا بايثون</string>
     <string name="home_quick_access">الوصول السريع</string>
     <string name="home_readme_description">أحدث التغييرات ودليل الإعداد والأوامر</string>
-    <string name="home_saved_chat_description">افتح دردشة Lora AI المحفوظة</string>
+    <string name="home_saved_chat_description">افتح دردشة ReDHawK AI المحفوظة</string>
     <string name="home_service_active">%1$s@localhost · الخدمة نشطة</string>
     <string name="home_settings_description">تفضيلات اللغة والتطبيق</string>
     <string name="home_settings_title">الإعدادات</string>
@@ -930,7 +930,7 @@
     <string name="jarvis_consent_term_secrets">قد تظهر كلمات المرور وتفاصيل الدفع ورموز الاسترداد والرسائل الخاصة على الشاشة. لا تطلب أبدًا من جارفيس كشف الأسرار أو تكرارها.</string>
     <string name="jarvis_consent_term_secure">قد يقوم Android بحظر النوافذ الآمنة أو الوسائط المحمية أو الشاشات المصرفية أو مربعات حوار النظام. لا يستطيع جارفيس تجاوز تلك الحماية.</string>
     <string name="jarvis_consent_term_stop">يمكنك إيقاف الخدمة من لوحة المعلومات أو الإشعارات وإلغاء إمكانية الوصول أو التراكب أو الميكروفون أو الوصول إلى البطارية في إعدادات Android.</string>
-    <string name="jarvis_consent_term_terminal">يمكن نسخ النص الدقيق أو لصقه وتشغيل أوامر Linux القابلة للإلغاء في مشروع Lora AI النشط عند تمكين Terminal Runner. يمكن للأوامر تغيير ملفات المشروع، لذا قم بمراجعة هدفها.</string>
+    <string name="jarvis_consent_term_terminal">يمكن نسخ النص الدقيق أو لصقه وتشغيل أوامر Linux القابلة للإلغاء في مشروع ReDHawK AI النشط عند تمكين Terminal Runner. يمكن للأوامر تغيير ملفات المشروع، لذا قم بمراجعة هدفها.</string>
     <string name="jarvis_consent_term_voice">تقوم المحادثة المباشرة الاختيارية و\"Hey Jarvis\" بتنشيط التعرف على كلام Android بشكل متكرر من خلال الخدمة الأمامية المرئية، ويمكنهما الاحتفاظ بقفل تنشيط جزئي للاستماع أثناء إيقاف تشغيل الشاشة، وزيادة استخدام البطارية. قد يتم تشغيل التعرف على الجهاز أو من خلال موفر الكلام بهاتفك.</string>
     <string name="jarvis_consent_terms_title">ما الذي يفعله الوصول؟</string>
     <string name="jarvis_consent_title">قبل أن يتمكن جارفيس من التصرف</string>
@@ -938,7 +938,7 @@
     <string name="jarvis_consent_warning_title">ستظل مسيطرًا</string>
     <string name="jarvis_dashboard_eyebrow">مساعد الجهاز المباشر</string>
     <string name="jarvis_dashboard_footer">قد تظل النوافذ وعناصر التحكم الآمنة التي تعمل بنظام Android والتي لا تكشف عن معلومات إمكانية الوصول غير متاحة.</string>
-    <string name="jarvis_dashboard_privacy_body">يقوم جارفيس بفحص الواجهة فقط أثناء تنفيذ الأمر. تستخدم المحادثة المباشرة و\"Hey Jarvis\" بشكل متكرر ميزة التعرف على الكلام في Android حتى يتم تعطيلها؛ لا يتم تخزين أي صوت خام بواسطة LoraCode. تظل لقطات شاشة الرؤية في ذاكرة التخزين المؤقت المؤقتة، على الأكثر أحدث ثلاث لقطات.</string>
+    <string name="jarvis_dashboard_privacy_body">يقوم جارفيس بفحص الواجهة فقط أثناء تنفيذ الأمر. تستخدم المحادثة المباشرة و\"Hey Jarvis\" بشكل متكرر ميزة التعرف على الكلام في Android حتى يتم تعطيلها؛ لا يتم تخزين أي صوت خام بواسطة ReDHawK Code. تظل لقطات شاشة الرؤية في ذاكرة التخزين المؤقت المؤقتة، على الأكثر أحدث ثلاث لقطات.</string>
     <string name="jarvis_dashboard_privacy_title">الشاشة عند الطلب · الصوت فقط عند التمكين</string>
     <string name="jarvis_dashboard_subtitle">قم بتشغيل المساعد العائم، وحدد إمكانات الطراز الخاص به وتحكم في كيفية رؤيته لشاشتك.</string>
     <string name="jarvis_dashboard_title">مركز التحكم جارفيس</string>
@@ -966,7 +966,7 @@
     <string name="jarvis_manage">إدارة</string>
     <string name="jarvis_manual_listening">الاستماع لأمر واحد...</string>
     <string name="jarvis_model_configure">تكوين اتصال النموذج</string>
-    <string name="jarvis_model_connect">قم بتوصيل مزود في Lora AI</string>
+    <string name="jarvis_model_connect">قم بتوصيل مزود في ReDHawK AI</string>
     <string name="jarvis_model_not_configured">لا يوجد نموذج متصل</string>
     <string name="jarvis_model_offline">غير متصل</string>
     <string name="jarvis_model_required">قم بتوصيل نموذج الذكاء الاصطناعي قبل بدء تشغيل Jarvis.</string>
@@ -1058,7 +1058,7 @@
     <string name="jarvis_voice_api_key">مفتاح واجهة برمجة التطبيقات الصوتية</string>
     <string name="jarvis_voice_api_key_note">يتم تخزين المفتاح في مساحة تخزين التطبيقات الخاصة ويتم إرساله فقط إلى نقطة النهاية الصوتية التي قمت بتكوينها.</string>
     <string name="jarvis_voice_api_model">نموذج الكلام</string>
-    <string name="jarvis_voice_api_privacy_body">يتم إرسال نص الرد إلى موفر الصوت المحدد للتوليف. لا يتضمن LoraCode خدمة صوتية مدفوعة الأجر أو خدمة ترحيل.</string>
+    <string name="jarvis_voice_api_privacy_body">يتم إرسال نص الرد إلى موفر الصوت المحدد للتوليف. لا يتضمن ReDHawK Code خدمة صوتية مدفوعة الأجر أو خدمة ترحيل.</string>
     <string name="jarvis_voice_api_privacy_title">المزود الخاص بك، شروطك</string>
     <string name="jarvis_voice_api_subtitle">استخدم كلام الجهاز المجاني أو قم بتوصيل واجهة برمجة تطبيقات الكلام الخاصة بك للحصول على صوت Jarvis مخصص.</string>
     <string name="jarvis_voice_api_test_failed">فشل اختبار الصوت</string>
@@ -1147,7 +1147,7 @@
     <string name="mcp_save_connect">حفظ والاتصال</string>
     <string name="mcp_saved">تم حفظ خادم MCP</string>
     <string name="mcp_servers_eyebrow">بروتوكول السياق النموذجي</string>
-    <string name="mcp_servers_subtitle">قم بتوصيل Lora AI بالأدوات والخدمات الخارجية. تعرض الخوادم الممكّنة أدواتها المكتشفة مباشرةً للوكيل.</string>
+    <string name="mcp_servers_subtitle">قم بتوصيل ReDHawK AI بالأدوات والخدمات الخارجية. تعرض الخوادم الممكّنة أدواتها المكتشفة مباشرةً للوكيل.</string>
     <string name="mcp_servers_title">خوادم MCP</string>
     <string name="mcp_show_token">إظهار الرمز المميز</string>
     <string name="mcp_status_never_connected">غير متصل بعد</string>
@@ -1184,14 +1184,14 @@
     <string name="quota_jarvis_share">استخدام جارفيس للعين</string>
     <string name="quota_last_12_weeks">آخر 12 أسبوعًا</string>
     <string name="quota_loading">جارٍ تحميل بيانات الاستخدام…</string>
-    <string name="quota_lora_ai">Lora AI</string>
+    <string name="quota_lora_ai">ReDHawK AI</string>
     <string name="quota_lora_remaining">لورا AI المتبقية٪</string>
     <string name="quota_lora_share">استخدام لورا للذكاء الاصطناعي</string>
     <string name="quota_no_usage">لا يوجد استخدام بعد</string>
     <string name="quota_quota_status">حالة الحصص</string>
     <string name="quota_refresh">تحديث</string>
     <string name="quota_remaining">المتبقي</string>
-    <string name="quota_subtitle">استخدام LoraCode الخاص بك في لمحة</string>
+    <string name="quota_subtitle">استخدام ReDHawK Code الخاص بك في لمحة</string>
     <string name="quota_title">حصة الاستخدام</string>
     <string name="quota_token_usage">نسبة الاستخدام</string>
     <string name="quota_tokens_value">استخدام%1$d%%</string>
@@ -1252,7 +1252,7 @@
     <string name="settings_language_applied">تغيرت اللغة</string>
     <string name="settings_language_help">التطبيق يتبع لغة الهاتف حتى تختار اللغة هنا.</string>
     <string name="settings_language_section">لغة التطبيق</string>
-    <string name="settings_subtitle">اختر كيفية ظهور LoraCode على هذا الجهاز.</string>
+    <string name="settings_subtitle">اختر كيفية ظهور ReDHawK Code على هذا الجهاز.</string>
     <string name="settings_system_default">الافتراضي للنظام</string>
     <string name="settings_system_default_value">النظام الافتراضي ·%1$s</string>
     <string name="settings_title">الإعدادات</string>
@@ -1319,7 +1319,7 @@
     <string name="setup_step_node">Node.js + npm</string>
     <string name="setup_step_python">بايثون</string>
     <string name="setup_step_ubuntu">Ubuntu</string>
-    <string name="setup_subtitle">اختر إصدارًا واحدًا من Ubuntu. سيقوم LoraCode بتثبيت Ubuntu فقط، بخطوات بسيطة خطوة بخطوة.</string>
+    <string name="setup_subtitle">اختر إصدارًا واحدًا من Ubuntu. سيقوم ReDHawK Code بتثبيت Ubuntu فقط، بخطوات بسيطة خطوة بخطوة.</string>
     <string name="setup_telegram_required">مطلوب اتصال حساب Telegram للمتابعة.</string>
     <string name="setup_title">بناء الإعداد الخاص بك</string>
     <string name="setup_ubuntu_description">مساحة العمل المطلوبة الوحيدة لديك · سيتم تثبيتها بعد ذلك</string>
@@ -1372,7 +1372,7 @@
     <string name="skills_save">حفظ المهارة</string>
     <string name="skills_saved">تم حفظ المهارة</string>
     <string name="skills_slash_hint">في الدردشة، اكتب / واسم المهارة. حدد عدة مهارات معًا، أو حدد مهارة نشطة مرة أخرى لإزالتها.</string>
-    <string name="skills_subtitle">قم بإنشاء حزم سلوك قابلة لإعادة الاستخدام لـ Lora AI. تظل المهارات المحددة في الدردشة نشطة حتى تقوم بإزالتها.</string>
+    <string name="skills_subtitle">قم بإنشاء حزم سلوك قابلة لإعادة الاستخدام لـ ReDHawK AI. تظل المهارات المحددة في الدردشة نشطة حتى تقوم بإزالتها.</string>
     <string name="skills_title">المهارات</string>
     <string name="skills_yours_section">مهاراتك</string>
     <string name="skills_yours_section_body">حزم التعليمات المخصصة والمستوردة الخاصة بك.</string>
@@ -1386,8 +1386,8 @@
     <string name="status_online">عبر الإنترنت</string>
     <string name="status_ready">جاهز</string>
     <string name="storage_permission_cancel">إلغاء</string>
-    <string name="storage_permission_granted_log">loracode-setup-storage: تم منح إذن التخزين</string>
-    <string name="storage_permission_message">يحتاج LoraCode إلى الوصول إلى كافة الملفات لتوصيل Ubuntu بمساحة تخزين الهاتف. سينتظر برنامج الإعداد ويستمر تلقائيًا بعد منح الإذن.</string>
+    <string name="storage_permission_granted_log">redhawk-setup-storage: تم منح إذن التخزين</string>
+    <string name="storage_permission_message">يحتاج ReDHawK Code إلى الوصول إلى كافة الملفات لتوصيل Ubuntu بمساحة تخزين الهاتف. سينتظر برنامج الإعداد ويستمر تلقائيًا بعد منح الإذن.</string>
     <string name="storage_permission_open">افتح إعدادات الأذونات</string>
     <string name="storage_permission_open_failed">لا يمكن فتح شاشة إذن التخزين.</string>
     <string name="storage_permission_title">مطلوب إذن التخزين</string>
@@ -1494,7 +1494,7 @@
     <string name="terminal_sessions">الجلسات</string>
     <string name="terminal_storage_unavailable">إعدادات التخزين غير متوفرة على هذا الجهاز</string>
     <string name="toast_close_notification">إغلاق الإخطار</string>
-    <string name="toast_config_created">تم إنشاء loracode.json.</string>
+    <string name="toast_config_created">تم إنشاء redhawk.json.</string>
     <string name="toast_connection_error">خطأ في الاتصال:%1$s</string>
     <string name="toast_custom_provider_manage_plan">تتوفر إدارة الموفر المخصصة في خطة Plus أو Pro.</string>
     <string name="toast_custom_provider_plus_required">يتطلب الاتصال بمزود مخصص خطة Plus أو Pro.</string>
@@ -1503,9 +1503,9 @@
     <string name="toast_github_login_failed">فشل تسجيل الدخول إلى GitHub:%1$s</string>
     <string name="toast_github_verification_failed">فشل التحقق من GitHub (HTTP%1$d)</string>
     <string name="toast_key_pair_created">تم إنشاء زوج مفاتيح جديد.</string>
-    <string name="toast_memory_failed">تعذر إنشاء LORA.md:%1$s</string>
-    <string name="toast_memory_generated">تم إنشاء LORA.md بنجاح.</string>
-    <string name="toast_memory_generating">مشروع المسح وإنشاء ذاكرة LORA.md...</string>
+    <string name="toast_memory_failed">تعذر إنشاء REDHAWK.md:%1$s</string>
+    <string name="toast_memory_generated">تم إنشاء REDHAWK.md بنجاح.</string>
+    <string name="toast_memory_generating">مشروع المسح وإنشاء ذاكرة REDHAWK.md...</string>
     <string name="toast_no_pending_changes">لا توجد تغييرات معلقة للتراجع عنها.</string>
     <string name="toast_permission_full_selected">تم تحديد وضع الوصول الكامل (777).</string>
     <string name="toast_permission_safe_selected">تم تحديد وضع الإذن الآمن.</string>
@@ -1524,7 +1524,7 @@
     <string name="update_action">تحديث</string>
     <string name="update_available_version">رمز الإصدار المتاح:%1$d</string>
     <string name="update_checking">جارٍ التحقق من وجود تحديثات...</string>
-    <string name="update_default_description">إصدار LoraCode الأحدث جاهز للتنزيل.</string>
+    <string name="update_default_description">إصدار ReDHawK Code الأحدث جاهز للتنزيل.</string>
     <string name="update_default_title">الإصدار الجديد متاح</string>
     <string name="update_installed_version">رمز الإصدار المثبت:%1$d</string>
     <string name="update_new_button">GÜNCELLEMEYI INDIR</string>

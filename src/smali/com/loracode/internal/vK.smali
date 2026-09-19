@@ -465,7 +465,7 @@
 
     .line 2
     .line 3
-    const-string v1, "#!/bin/sh\necho \'LoraCode aktif VS Code eklentileri:\'\n"
+    const-string v1, "#!/bin/sh\necho \'ReDHawK Code aktif VS Code eklentileri:\'\n"
 
     .line 4
     .line 5
@@ -5005,7 +5005,7 @@
 
     .line 455
     .line 456
-    const-string v7, "#!/bin/sh\nset -eu\nprefix=${NPM_CONFIG_PREFIX:-/hostdata/.loracodefile/tools/npm}\ncli=\"$prefix/bin/cline\"\nif [ -x \"$cli\" ]; then exec \"$cli\" \"$@\"; fi\nif ! command -v npm >/dev/null 2>&1; then\n  echo \"Cline VS Code eklentisi kurulu; terminal CLI icin once Node/npm kurulmasi gerekiyor.\" >&2\n  echo \"Ornek: pkg install nodejs npm\" >&2\n  exit 127\nfi\necho \"Cline CLI ilk kullanimda LoraCode npm alanina kuruluyor...\"\nnpm install --global --prefix \"$prefix\" --no-audit --no-fund cline || {\n  echo \"Cline CLI kurulamadi. npm agini ve Node surumunu kontrol edin.\" >&2\n  exit 1\n}\nexec \"$cli\" \"$@\""
+    const-string v7, "#!/bin/sh\nset -eu\nprefix=${NPM_CONFIG_PREFIX:-/hostdata/.loracodefile/tools/npm}\ncli=\"$prefix/bin/cline\"\nif [ -x \"$cli\" ]; then exec \"$cli\" \"$@\"; fi\nif ! command -v npm >/dev/null 2>&1; then\n  echo \"Cline VS Code eklentisi kurulu; terminal CLI icin once Node/npm kurulmasi gerekiyor.\" >&2\n  echo \"Ornek: pkg install nodejs npm\" >&2\n  exit 127\nfi\necho \"Cline CLI ilk kullanimda ReDHawK Code npm alanina kuruluyor...\"\nnpm install --global --prefix \"$prefix\" --no-audit --no-fund cline || {\n  echo \"Cline CLI kurulamadi. npm agini ve Node surumunu kontrol edin.\" >&2\n  exit 1\n}\nexec \"$cli\" \"$@\""
 
     .line 457
     .line 458
@@ -6022,7 +6022,7 @@
 
     .line 21
     .line 22
-    const-string v2, "LoraCode-AgentWorkspace-VSCodeExtensions"
+    const-string v2, "ReDHawK Code-AgentWorkspace-VSCodeExtensions"
 
     .line 23
     .line 24
@@ -8860,7 +8860,7 @@
 
     .line 27
     .line 28
-    const-string v2, "LoraCode-AgentWorkspace-VSCodeExtensions"
+    const-string v2, "ReDHawK Code-AgentWorkspace-VSCodeExtensions"
 
     .line 29
     .line 30

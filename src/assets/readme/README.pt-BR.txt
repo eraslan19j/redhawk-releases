@@ -1,17 +1,17 @@
-# LoraCode 3.40.0
+# ReDHawK Code 3.40.0
 
 **Workspace Linux móvel para Android** — Ubuntu, Node.js, npm, Python e Kali Linux opcional em um só aplicativo.
 
-> Atualizado em 11 de agosto de 2026. Instalações longas continuam em segundo plano, mas o LoraCode não deve ser forçado a parar.
+> Atualizado em 11 de agosto de 2026. Instalações longas continuam em segundo plano, mas o ReDHawK Code não deve ser forçado a parar.
 
 ## Novidades
 
-- O espaço moderno do agente **Lora AI** foi adicionado logo abaixo do Terminal.
+- O espaço moderno do agente **ReDHawK AI** foi adicionado logo abaixo do Terminal.
 - Há suporte para OpenAI, Claude, Grok, Gemini, OpenCode Zen e provedores personalizados compatíveis com OpenAI; as chaves são criptografadas pelo Android Keystore.
 - Seleção de projeto, chat, editor de texto e menu lateral Arquivo/Espaço de trabalho estão integrados.
 - As ferramentas de arquivos e pastas ficam limitadas ao projeto escolhido e pedem confirmação por padrão.
 - Os detalhes do sistema foram redesenhados com atualização ao vivo de pacotes, cartões de ambiente, busca, contadores de categoria e indicadores de atualização APT.
-- O console web agora usa o mecanismo VT do LoraCode, dimensões exatas do navegador, cores consistentes e atalhos móveis; o OpenCode aparece sem artefatos ANSI.
+- O console web agora usa o mecanismo VT do ReDHawK Code, dimensões exatas do navegador, cores consistentes e atalhos móveis; o OpenCode aparece sem artefatos ANSI.
 - O console web mantém o comando atual visível acima do teclado móvel, envia com Enter e oferece histórico local de comandos.
 - Corrigidos a conexão do console web no Chromium/Brave, o foco do teclado móvel, a entrada IME e a reconexão automática.
 - O OpenCode agora acompanha as mudanças de altura do terminal e ocupa toda a tela disponível quando o teclado fecha ou o telefone gira.
@@ -35,7 +35,7 @@ loracode-setup-storage
 
 - `/sdcard` — armazenamento compartilhado.
 - `/storage` — volumes do Android.
-- `/hostdata` — arquivos privados da ponte LoraCode.
+- `/hostdata` — arquivos privados da ponte ReDHawK Code.
 
 ## Comandos do Ubuntu
 

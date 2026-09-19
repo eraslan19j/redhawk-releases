@@ -2303,7 +2303,7 @@
     iget v2, v2, Lcom/loracode/internal/Ls;->g:I
 
     .line 26
-    const-string v3, "LoraCode"
+    const-string v3, "ReDHawK Code"
 
     const/high16 v4, 0x41800000    # 16.0f
 

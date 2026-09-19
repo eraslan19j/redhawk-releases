@@ -1102,7 +1102,7 @@
 
     .line 61
     :cond_4
-    const-string v0, ":x:1000:1000:LoraCode User:/home/"
+    const-string v0, ":x:1000:1000:ReDHawK Code User:/home/"
 
     .line 62
     .line 63

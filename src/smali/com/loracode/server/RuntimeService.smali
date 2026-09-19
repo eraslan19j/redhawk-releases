@@ -691,7 +691,7 @@
 
     .line 205
     .line 206
-    const-string v10, "Lora AI"
+    const-string v10, "ReDHawK AI"
 
     .line 207
     .line 208
@@ -699,7 +699,7 @@
 
     .line 209
     :cond_8
-    const-string v10, "LoraCode"
+    const-string v10, "ReDHawK Code"
 
     .line 210
     .line 211
@@ -1607,7 +1607,7 @@
 
     .line 24
     .line 25
-    const-string v1, "LoraCode:terminal"
+    const-string v1, "ReDHawK Code:terminal"
 
     .line 26
     .line 27

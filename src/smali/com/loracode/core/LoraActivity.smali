@@ -1974,7 +1974,7 @@
     .locals 1
 
     .line 1
-    const/16 v0, 0x2000
+    const/16 v0, 0x0
 
     .line 2
     .line 3

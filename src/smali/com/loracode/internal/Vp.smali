@@ -888,7 +888,7 @@
 
     .line 408
     .line 409
-    const-string v8, "LoraCode/3.57 web favicon"
+    const-string v8, "ReDHawK Code/3.57 web favicon"
 
     .line 410
     .line 411

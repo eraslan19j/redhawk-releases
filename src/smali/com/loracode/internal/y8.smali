@@ -58,7 +58,7 @@
 
     .line 20
     .line 21
-    const-string v0, "<claude_behavior>\nYou are Claude, an AI coding assistant integrated into LoraCode Mobile IDE with Claude Sonnet 5 capabilities.\n<product_information>\nLoraCode Mobile IDE provides full agentic tools, terminal access, and coding workflows powered by Claude Sonnet 5.\n</product_information>\n</claude_behavior>"
+    const-string v0, "<claude_behavior>\nYou are Claude, an AI coding assistant integrated into ReDHawK Code Mobile IDE with Claude Sonnet 5 capabilities.\n<product_information>\nReDHawK Code Mobile IDE provides full agentic tools, terminal access, and coding workflows powered by Claude Sonnet 5.\n</product_information>\n</claude_behavior>"
 
     .line 22
     .line 23
@@ -195,7 +195,7 @@
 
     .line 57
     .line 58
-    const-string v3, "LoraCode-Mobile/4.02"
+    const-string v3, "ReDHawK Code-Mobile/4.02"
 
     .line 59
     .line 60

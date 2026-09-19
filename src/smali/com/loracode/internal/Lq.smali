@@ -1658,7 +1658,7 @@
 
     .line 816
     .line 817
-    const-string v5, "loracode.json"
+    const-string v5, "redhawk.json"
 
     .line 818
     .line 819
@@ -1667,7 +1667,7 @@
     .line 820
     .line 821
     .line 822
-    const-string v3, "{\n  \"$schema\": \"https://loracode.dev/schema/loracode.json\",\n  \"version\": \"1.0\",\n  \"ai\": {\n    \"thinking\": true,\n    \"reasoning_effort\": \"high\",\n    \"speed_mode\": \"2x\",\n    \"system_prompt\": \"You are a senior elite software engineer working on this project. Write clean, production-ready, performant code.\",\n    \"instructions\": [\n      \"Follow project coding conventions and architecture patterns.\",\n      \"Always inspect files before modifying them.\",\n      \"Verify code changes thoroughly.\"\n    ]\n  },\n  \"tools\": {\n    \"allowed_tools\": [\n      \"*\"\n    ],\n    \"auto_approve_commands\": false,\n    \"env\": {\n      \"NODE_ENV\": \"development\"\n    }\n  },\n  \"workspace\": {\n    \"name\": \"Project\",\n    \"ignore\": [\n      \".git\",\n      \"build\",\n      \"node_modules\",\n      \".gradle\",\n      \"dist\",\n      \".loracode\"\n    ],\n    \"build_command\": \"./gradlew assembleDebug\",\n    \"test_command\": \"./gradlew test\"\n  }\n}\n"
+    const-string v3, "{\n  \"$schema\": \"https://redhawk.dev/schema/redhawk.json\",\n  \"version\": \"1.0\",\n  \"ai\": {\n    \"thinking\": true,\n    \"reasoning_effort\": \"high\",\n    \"speed_mode\": \"2x\",\n    \"system_prompt\": \"You are a senior elite software engineer working on this project. Write clean, production-ready, performant code.\",\n    \"instructions\": [\n      \"Follow project coding conventions and architecture patterns.\",\n      \"Always inspect files before modifying them.\",\n      \"Verify code changes thoroughly.\"\n    ]\n  },\n  \"tools\": {\n    \"allowed_tools\": [\n      \"*\"\n    ],\n    \"auto_approve_commands\": false,\n    \"env\": {\n      \"NODE_ENV\": \"development\"\n    }\n  },\n  \"workspace\": {\n    \"name\": \"Project\",\n    \"ignore\": [\n      \".git\",\n      \"build\",\n      \"node_modules\",\n      \".gradle\",\n      \"dist\",\n      \".loracode\"\n    ],\n    \"build_command\": \"./gradlew assembleDebug\",\n    \"test_command\": \"./gradlew test\"\n  }\n}\n"
 
     .line 823
     .line 824

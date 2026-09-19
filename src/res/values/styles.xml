@@ -3523,7 +3523,7 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
-    <style name="Theme.LoraCode" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.ReDHAwKCode" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/bg_dark</item>
         <item name="android:textColorHighlight">@color/selection</item>
         <item name="android:windowAnimationStyle">@style/LoraQuickWindowAnimation</item>

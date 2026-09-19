@@ -1,4 +1,4 @@
-# LoraCode içi kök yardımcı — rootfs ortamına bağlanan her öncü oturumda çalışır.
+# ReDHawK Code içi kök yardımcı — rootfs ortamına bağlanan her öncü oturumda çalışır.
 
 umask 022
 export TERM=xterm-256color
@@ -7,7 +7,7 @@ export EDITOR=nano
 
 # Cpdis / devnode yok; /proc zaten proot tarafından bağlı.
 if [ ! -e /proc/self ]; then
-  echo "LoraCode: /proc eksik — kurulum bozuk görünüyor" >&2
+  echo "ReDHawK Code: /proc eksik — kurulum bozuk görünüyor" >&2
 fi
 
 # Shell kırıcı çıktı (hostdata bağlama noktası)

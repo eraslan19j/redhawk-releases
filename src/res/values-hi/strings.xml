@@ -50,7 +50,7 @@
     <string name="access_title">टेलीग्राम पहुंच</string>
     <string name="access_token_reset_note">लाइव उपयोग विंडोज़</string>
     <string name="access_tokens_jarvis">Jarvis</string>
-    <string name="access_tokens_lora">Lora AI</string>
+    <string name="access_tokens_lora">ReDHawK AI</string>
     <string name="access_tokens_remaining">%1$d%%शेष</string>
     <string name="access_tokens_remaining_short">%1$d%%</string>
     <string name="access_tokens_unlimited">असीमित</string>
@@ -662,7 +662,7 @@
     <string name="ai_welcome_noon">शुभ दोपहर,%1$s</string>
     <string name="ai_welcome_title">नमस्ते, रात का उल्लू</string>
     <string name="ai_workspace_applying_code">प्रोजेक्ट में पिछला कोड लागू करना</string>
-    <string name="ai_workspace_config_title">loracode.json कॉन्फ़िगरेशन</string>
+    <string name="ai_workspace_config_title">redhawk.json कॉन्फ़िगरेशन</string>
     <string name="ai_workspace_invalid">यह कार्यस्थान फ़ाइल अमान्य है या इसका प्रोजेक्ट अब मौजूद नहीं है.</string>
     <string name="ai_workspace_no_executable_change">प्रदाता ने कोई निष्पादन योग्य प्रोजेक्ट परिवर्तन नहीं लौटाया। परियोजना को अपरिवर्तित छोड़ दिया गया था.</string>
     <string name="ai_workspace_reading">रीडिंग प्रोजेक्ट:%1$s</string>
@@ -672,7 +672,7 @@
     <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">पासकी</string>
     <string name="announcements_live">लाइव</string>
     <string name="announcements_refresh">ताज़ा करें</string>
-    <string name="app_name">LoraCode</string>
+    <string name="app_name">ReDHawK Code</string>
     <string name="auth_account_control_action">खाता नियंत्रण/प्रबंधन प्रदाता</string>
     <string name="auth_change_email_action">ईमेल बदलें</string>
     <string name="auth_code_hint">6 अंकीय कोड</string>
@@ -824,7 +824,7 @@
     <string name="home_agent_workspace_description">अपना प्रोजेक्ट-जागरूक AI कार्यक्षेत्र खोलें</string>
     <string name="home_agent_workspace_title">एजेंट कार्यक्षेत्र</string>
     <string name="home_ai_description">प्रोजेक्ट-अवेयर कोडिंग एजेंट खोलें</string>
-    <string name="home_ai_title">Lora AI</string>
+    <string name="home_ai_title">ReDHawK AI</string>
     <string name="home_alpine_description">हल्का आधिकारिक ARM64 कार्यक्षेत्र स्थापित करें</string>
     <string name="home_alpine_ready">एपीके, नोड और पायथन के साथ तैयार अल्पाइन कार्यक्षेत्र खोलें</string>
     <string name="home_alpine_title">Alpine Linux</string>
@@ -1184,7 +1184,7 @@
     <string name="quota_jarvis_share">जार्विस आई का उपयोग</string>
     <string name="quota_last_12_weeks">पिछले 12 सप्ताह</string>
     <string name="quota_loading">उपयोग डेटा लोड हो रहा है...</string>
-    <string name="quota_lora_ai">Lora AI</string>
+    <string name="quota_lora_ai">ReDHawK AI</string>
     <string name="quota_lora_remaining">लोरा एआई शेष %</string>
     <string name="quota_lora_share">लोरा एआई का उपयोग</string>
     <string name="quota_no_usage">अभी तक कोई उपयोग नहीं</string>
@@ -1494,7 +1494,7 @@
     <string name="terminal_sessions">सत्र</string>
     <string name="terminal_storage_unavailable">इस डिवाइस पर संग्रहण सेटिंग अनुपलब्ध हैं</string>
     <string name="toast_close_notification">अधिसूचना बंद करें</string>
-    <string name="toast_config_created">loracode.json बनाया गया।</string>
+    <string name="toast_config_created">redhawk.json बनाया गया।</string>
     <string name="toast_connection_error">कनेक्शन त्रुटि:%1$s</string>
     <string name="toast_custom_provider_manage_plan">कस्टम प्रदाता प्रबंधन प्लस या प्रो योजना पर उपलब्ध है।</string>
     <string name="toast_custom_provider_plus_required">किसी कस्टम प्रदाता को कनेक्ट करने के लिए प्लस या प्रो प्लान की आवश्यकता होती है।</string>
@@ -1503,9 +1503,9 @@
     <string name="toast_github_login_failed">GitHub साइन-इन विफल:%1$s</string>
     <string name="toast_github_verification_failed">GitHub सत्यापन विफल (HTTP%1$d)</string>
     <string name="toast_key_pair_created">नई कुंजी जोड़ी बनाई गई.</string>
-    <string name="toast_memory_failed">LORA.md उत्पन्न नहीं किया जा सका:%1$s</string>
-    <string name="toast_memory_generated">LORA.md सफलतापूर्वक उत्पन्न हुआ।</string>
-    <string name="toast_memory_generating">प्रोजेक्ट को स्कैन करना और LORA.md मेमोरी जनरेट करना…</string>
+    <string name="toast_memory_failed">REDHAWK.md उत्पन्न नहीं किया जा सका:%1$s</string>
+    <string name="toast_memory_generated">REDHAWK.md सफलतापूर्वक उत्पन्न हुआ।</string>
+    <string name="toast_memory_generating">प्रोजेक्ट को स्कैन करना और REDHAWK.md मेमोरी जनरेट करना…</string>
     <string name="toast_no_pending_changes">पूर्ववत करने के लिए कोई लंबित परिवर्तन नहीं.</string>
     <string name="toast_permission_full_selected">पूर्ण पहुँच (777) मोड चयनित।</string>
     <string name="toast_permission_safe_selected">सुरक्षित अनुमति मोड चयनित.</string>

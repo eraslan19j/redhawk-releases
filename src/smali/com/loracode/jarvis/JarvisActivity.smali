@@ -11655,6 +11655,17 @@
     .line 2
     invoke-super {p0, p1}, Lcom/loracode/core/LoraActivity;->onCreate(Landroid/os/Bundle;)V
 
+    # Fullscreen ac
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    move-result-object v3
+    const/16 v4, 0x400
+    invoke-virtual {v3, v4}, Landroid/view/Window;->addFlags(I)V
+    
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+    move-result-object v3
+    const/16 v4, 0x80
+    invoke-virtual {v3, v4}, Landroid/view/Window;->addFlags(I)V
+
     .line 3
     .line 4
     .line 5

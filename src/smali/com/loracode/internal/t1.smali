@@ -5310,7 +5310,7 @@
     move-result v6
 
     .line 2408
-    const-string v9, "LORACODE"
+    const-string v9, "ReDHawK Code"
 
     .line 2409
     .line 2410

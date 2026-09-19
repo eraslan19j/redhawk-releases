@@ -15855,7 +15855,7 @@
 
     .line 100
     .line 101
-    const-string v10, "LoraCode-OpenAI-Compatible/1.0"
+    const-string v10, "ReDHawK Code-OpenAI-Compatible/1.0"
 
     .line 102
     .line 103
@@ -22448,7 +22448,7 @@
 
     .line 46
     .line 47
-    const-string v2, "LoraCode-OpenAI-Compatible/1.0"
+    const-string v2, "ReDHawK Code-OpenAI-Compatible/1.0"
 
     .line 48
     .line 49

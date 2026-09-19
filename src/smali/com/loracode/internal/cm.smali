@@ -5417,7 +5417,7 @@
 
     .line 7
     .line 8
-    const-string v1, "loracode.json"
+    const-string v1, "redhawk.json"
 
     .line 9
     .line 10

@@ -1339,7 +1339,7 @@
 
     .line 241
     .line 242
-    const-string v5, "LoraCode/4.02.02 (Android; Mobile)"
+    const-string v5, "ReDHawK Code/4.02.02 (Android; Mobile)"
 
     .line 243
     .line 244

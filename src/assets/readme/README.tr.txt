@@ -1,18 +1,18 @@
-# LoraCode 3.40.0
+# ReDHawK Code 3.40.0
 
 **Android için mobil Linux çalışma alanı** — Ubuntu, Node.js, npm, Python ve isteğe bağlı Kali Linux tek uygulamada.
 
-> Güncelleme: 11 Ağustos 2026. Uzun kurulumlar arka planda devam eder; ancak LoraCode zorla kapatılmamalıdır.
+> Güncelleme: 11 Ağustos 2026. Uzun kurulumlar arka planda devam eder; ancak ReDHawK Code zorla kapatılmamalıdır.
 
 ## Bu sürümde neler yeni?
 
-- Terminal seçeneğinin hemen altına ayrı ve modern bir çalışma ekranıyla **Lora AI** eklendi.
+- Terminal seçeneğinin hemen altına ayrı ve modern bir çalışma ekranıyla **ReDHawK AI** eklendi.
 - İlk bağlantıda OpenAI, Claude, Grok, Gemini, OpenCode Zen veya OpenAI uyumlu özel sağlayıcı seçilebilir. API anahtarları Android Keystore ile şifrelenir.
 - Ubuntu kullanıcı klasörü ya da telefon depolamasından proje seçimi, kalıcı sohbet, dahili metin editörü ve kaydırmalı Dosya/Çalışma Alanı menüsü eklendi.
 - Gerçek tool calling; dosya ve klasörleri listeleme, okuma, arama, oluşturma, değiştirme, taşıma, yeniden adlandırma, silme ve POSIX izinlerini değiştirmeyi destekler. Tüm yollar seçili projeyle sınırlandırılır ve değişiklikler varsayılan olarak onay ister.
-- Sağlayıcı adresi/modeli, araç izin grupları, onay modu ve Otomatik Kaydet daha sonra Lora AI tercihlerinden değiştirilebilir.
+- Sağlayıcı adresi/modeli, araç izin grupları, onay modu ve Otomatik Kaydet daha sonra ReDHawK AI tercihlerinden değiştirilebilir.
 - Sistem Detayları; canlı paket yenileme, runtime kartları, arama, kategori sayaçları ve APT güncelleme adayı göstergeleriyle yenilendi.
-- Web konsolu artık LoraCode VT motorunu, doğru tarayıcı ölçüsünü, uyumlu renkleri ve mobil kısayolları kullanır; OpenCode ANSI bozulmaları olmadan görüntülenir.
+- Web konsolu artık ReDHawK Code VT motorunu, doğru tarayıcı ölçüsünü, uyumlu renkleri ve mobil kısayolları kullanır; OpenCode ANSI bozulmaları olmadan görüntülenir.
 - Web konsolu yazılan komutu mobil klavyenin üstünde görünür tutar, Enter ile gönderir ve yerel komut geçmişi sunar.
 - Chromium/Brave Web konsolu bağlantısı, mobil klavye odağı, Türkçe IME yazımı ve otomatik yeniden bağlanma düzeltildi.
 - OpenCode artık klavye kapanınca veya telefon döndürülünce terminal yüksekliğini izler ve kullanılabilir ekranın tamamını doldurur.
@@ -31,9 +31,9 @@
 - Kali içinde `wget`, `curl`, `git`, `nano`, Python, pip, ağ araçları ve sertifikalar hazırlanır.
 - Yerel ARM64 PTY desteği; iş denetimi, `su`, terminal boyutlandırma ve yeni oturumların kapanması sorunlarını düzeltir.
 
-## Lora AI araçları
+## ReDHawK AI araçları
 
-Ana menüden **Lora AI** bölümünü açın, bir sağlayıcı bağlayın ve proje klasörünü seçin. Ajan yalnızca seçili proje içinde şu araçları kullanır:
+Ana menüden **ReDHawK AI** bölümünü açın, bir sağlayıcı bağlayın ve proje klasörünü seçin. Ajan yalnızca seçili proje içinde şu araçları kullanır:
 
 ```text
 list_files      read_file        search_files
@@ -51,12 +51,12 @@ Ubuntu seçimi zorunludur. Node.js/npm ve Python kurulum sırasında isteğe ba�
 1. Bir Ubuntu sürümü seçin.
 2. İsterseniz Node.js/npm sürümü seçin.
 3. İsterseniz Python sürümü seçin.
-4. **Install Setup** düğmesine basın ve LoraCode'u açık tutun.
+4. **Install Setup** düğmesine basın ve ReDHawK Code'u açık tutun.
 5. Her bileşenin ayrı yüzde ilerleme çubuğu ve arka plan terminal çıktısı bulunur.
 
 ## Telefon depolama izni
 
-Ubuntu terminalinde aşağıdaki komutu çalıştırın. LoraCode Android izin ekranını açar, izin verilmesini bekler ve otomatik devam eder.
+Ubuntu terminalinde aşağıdaki komutu çalıştırın. ReDHawK Code Android izin ekranını açar, izin verilmesini bekler ve otomatik devam eder.
 
 ```bash
 loracode-setup-storage
@@ -66,7 +66,7 @@ Kullanılabilen bağlantı noktaları:
 
 - `/sdcard` — telefonun paylaşılan depolama alanı.
 - `/storage` — Android depolama birimleri.
-- `/hostdata` — LoraCode'un özel köprü dosyaları.
+- `/hostdata` — ReDHawK Code'un özel köprü dosyaları.
 
 ## Ubuntu paket komutları
 
@@ -138,7 +138,7 @@ Kali'yi Ubuntu terminalinden kurun veya mevcut kurulumu onarın:
 kali-install
 ```
 
-İlk kurulum resmi minimal ARM64 kök dosya sistemini indirir. Aynı komut eski LoraCode Kali kurulumunda tekrar çalıştırıldığında kök dosya sistemini indirmeden depoları ve araçları onarır.
+İlk kurulum resmi minimal ARM64 kök dosya sistemini indirir. Aynı komut eski ReDHawK Code Kali kurulumunda tekrar çalıştırıldığında kök dosya sistemini indirmeden depoları ve araçları onarır.
 
 Kali'yi şu kısayollardan biriyle açın:
 
@@ -219,7 +219,7 @@ pkg update
 
 ### Yeni terminal oturumu hemen kapanıyorsa
 
-En son LoraCode APK'sını mevcut uygulamanın üzerine kurun. ARM64 PTY köprüsü ve oturum yaşam döngüsü düzeltmeleri 3.31 sürümünden itibaren bulunur.
+En son ReDHawK Code APK'sını mevcut uygulamanın üzerine kurun. ARM64 PTY köprüsü ve oturum yaşam döngüsü düzeltmeleri 3.31 sürümünden itibaren bulunur.
 
 ### Depolama görünmüyorsa
 

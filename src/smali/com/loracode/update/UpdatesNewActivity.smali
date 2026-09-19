@@ -345,7 +345,7 @@
     move-result v10
 
     .line 158
-    const-string v12, "LoraCode"
+    const-string v12, "ReDHawK Code"
 
     .line 159
     .line 160
@@ -1408,7 +1408,7 @@
 
     .line 711
     :cond_5
-    const-string v10, "LoraCode release"
+    const-string v10, "ReDHawK Code release"
 
     .line 712
     .line 713

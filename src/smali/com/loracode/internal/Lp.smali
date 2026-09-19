@@ -6781,11 +6781,64 @@
 .end method
 
 .method public final o(Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;Landroid/content/Context;)Lorg/json/JSONObject;
-    .locals 2
+    .locals 3
+
+    const-string v0, "announce"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_default
+
+    :try_start_0
+    const-string v0, "https://raw.githubusercontent.com/eraslan19j/redhawk-releases/master/version.json"
+
+    new-instance v1, Lokhttp3/Request$Builder;
+
+    invoke-direct {v1}, Lokhttp3/Request$Builder;-><init>()V
+
+    invoke-virtual {v1, v0}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/loracode/internal/Lp;->b:Lokhttp3/OkHttpClient;
+
+    invoke-virtual {v2, v1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lokhttp3/Call;->execute()Lokhttp3/Response;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lokhttp3/ResponseBody;->string()Ljava/lang/String;
+
+    move-result-object v1
 
     new-instance v0, Lorg/json/JSONObject;
 
-    const-string v1, "{\"status\":\"active\",\"plan\":\"pro\",\"planName\":\"Pro\",\"assignedPlan\":\"pro\",\"expiresAt\":9999999999999,\"providerBindingAllowed\":true,\"limits\":{\"lora\":999999999,\"loraTokens\":999999999,\"loraFiveHour\":999999999,\"loraFiveHourTokens\":999999999,\"jarvis\":999999999,\"jarvisTokens\":999999999,\"jarvisFiveHour\":999999999,\"jarvisFiveHourTokens\":999999999}}"
+    invoke-direct {v0, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    move-exception v0
+
+    :cond_default
+    new-instance v0, Lorg/json/JSONObject;
+
+    const-string v1, "{\"status\":\"active\",\"plan\":\"pro\",\"planName\":\"Pro\",\"assignedPlan\":\"pro\",\"expiresAt\":9999999999999,\"providerBindingAllowed\":true,\"announcements\":[{\"id\":\"1\",\"title\":\"ReDHawK Code v1.0.0\",\"body\":\"11 AI saglayicisi, kirmizi-siyah tema, Jarvis iyilestirmeleri.\",\"date\":\"2026-09-19\",\"type\":\"info\"}],\"limits\":{\"lora\":999999999,\"loraTokens\":999999999,\"loraFiveHour\":999999999,\"loraFiveHourTokens\":999999999,\"jarvis\":999999999,\"jarvisTokens\":999999999,\"jarvisFiveHour\":999999999,\"jarvisFiveHourTokens\":999999999}}"
 
     invoke-direct {v0, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
@@ -8330,7 +8383,7 @@
     move-result-object v3
 
     .line 19
-    const-string v4, "loracode-managed"
+    const-string v4, "redhawk-managed"
 
     .line 20
     .line 21
@@ -9430,7 +9483,7 @@
 
     .line 476
     .line 477
-    const-string v25, "loracode-managed"
+    const-string v25, "redhawk-managed"
 
     .line 478
     .line 479
@@ -9770,7 +9823,7 @@
 
     .line 610
     .line 611
-    const-string v5, "loracode-managed"
+    const-string v5, "redhawk-managed"
 
     .line 612
     .line 613

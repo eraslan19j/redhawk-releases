@@ -621,7 +621,7 @@
     .line 4
     .line 5
     .line 6
-    const-string v0, "loracode-managed"
+    const-string v0, "redhawk-managed"
 
     .line 7
     .line 8
@@ -2852,11 +2852,11 @@
 
     .line 11
     .line 12
-    const-string v4, "loracode-managed"
+    const-string v4, "redhawk-managed"
 
     .line 13
     .line 14
-    const-string v5, "LoraAI"
+    const-string v5, "ReDHawKAI"
 
     .line 15
     .line 16
@@ -4630,189 +4630,21 @@
 .end method
 
 .method public final x(Lcom/loracode/internal/Ty;Z)V
-    .locals 5
+    .locals 3
 
-    .line 1
     const-string v0, "config"
-
-    .line 2
-    .line 3
     invoke-static {p1, v0}, Lcom/loracode/internal/cm;->j(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
-    .line 5
-    .line 6
-    iget-object v0, p1, Lcom/loracode/internal/Ty;->i:Ljava/lang/String;
+    iget-object v0, p0, Lcom/loracode/internal/L1;->b:Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    move-result-object v0
 
-    .line 7
-    .line 8
-    const-string v1, "loracode-managed"
+    const-string v1, "active_provider"
+    iget-object v2, p1, Lcom/loracode/internal/Ty;->i:Ljava/lang/String;
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    move-result-object v0
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 9
-    .line 10
-    invoke-static {v0, v1}, Lcom/loracode/internal/cm;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    .line 11
-    .line 12
-    .line 13
-    move-result v1
-
-    .line 14
-    if-eqz v1, :cond_0
-
-    .line 15
-    .line 16
-    invoke-virtual {p0, p1, p2}, Lcom/loracode/internal/L1;->v(Lcom/loracode/internal/Ty;Z)V
-
-    .line 17
-    .line 18
-    .line 19
-    return-void
-
-    .line 20
-    :cond_0
-    invoke-virtual {p0}, Lcom/loracode/internal/L1;->n()Ljava/util/List;
-
-    .line 21
-    .line 22
-    .line 23
-    move-result-object v1
-
-    .line 24
-    invoke-static {v1}, Lcom/loracode/internal/d9;->z1(Ljava/util/Collection;)Ljava/util/ArrayList;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object v1
-
-    .line 28
-    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object v2
-
-    .line 32
-    const/4 v3, 0x0
-
-    .line 33
-    :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 34
-    .line 35
-    .line 36
-    move-result v4
-
-    .line 37
-    if-eqz v4, :cond_2
-
-    .line 38
-    .line 39
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 40
-    .line 41
-    .line 42
-    move-result-object v4
-
-    .line 43
-    check-cast v4, Lcom/loracode/internal/Ty;
-
-    .line 44
-    .line 45
-    iget-object v4, v4, Lcom/loracode/internal/Ty;->i:Ljava/lang/String;
-
-    .line 46
-    .line 47
-    invoke-static {v4, v0}, Lcom/loracode/internal/cm;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    .line 48
-    .line 49
-    .line 50
-    move-result v4
-
-    .line 51
-    if-eqz v4, :cond_1
-
-    .line 52
-    .line 53
-    goto :goto_1
-
-    .line 54
-    :cond_1
-    add-int/lit8 v3, v3, 0x1
-
-    .line 55
-    .line 56
-    goto :goto_0
-
-    .line 57
-    :cond_2
-    const/4 v3, -0x1
-
-    .line 58
-    :goto_1
-    if-ltz v3, :cond_3
-
-    .line 59
-    .line 60
-    invoke-virtual {v1, v3, p1}, Ljava/util/ArrayList;->set(ILjava/lang/Object;)Ljava/lang/Object;
-
-    .line 61
-    .line 62
-    .line 63
-    goto :goto_2
-
-    .line 64
-    :cond_3
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 65
-    .line 66
-    .line 67
-    :goto_2
-    invoke-virtual {p0, v1}, Lcom/loracode/internal/L1;->y(Ljava/util/List;)V
-
-    .line 68
-    .line 69
-    .line 70
-    if-eqz p2, :cond_4
-
-    .line 71
-    .line 72
-    iget-object p1, p0, Lcom/loracode/internal/L1;->b:Landroid/content/SharedPreferences;
-
-    .line 73
-    .line 74
-    invoke-interface {p1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    .line 75
-    .line 76
-    .line 77
-    move-result-object p1
-
-    .line 78
-    const-string p2, "active_provider"
-
-    .line 79
-    .line 80
-    invoke-interface {p1, p2, v0}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-
-    .line 81
-    .line 82
-    .line 83
-    move-result-object p1
-
-    .line 84
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    .line 85
-    .line 86
-    .line 87
-    :cond_4
     return-void
 .end method
 
@@ -4870,7 +4702,7 @@
 
     .line 24
     .line 25
-    const-string v4, "loracode-managed"
+    const-string v4, "redhawk-managed"
 
     .line 26
     .line 27
@@ -4894,7 +4726,7 @@
     move-result-object v3
 
     .line 37
-    const-string v4, "LoraAI"
+    const-string v4, "ReDHawKAI"
 
     .line 38
     .line 39
@@ -5203,7 +5035,7 @@
 
     .line 17
     .line 18
-    const-string p1, "medium"
+    const-string p1, "high"
 
     .line 19
     .line 20

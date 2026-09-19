@@ -433,7 +433,7 @@
 
     .line 203
     .line 204
-    const-string v20, "Update from LoraCode"
+    const-string v20, "Update from ReDHawK Code"
 
     .line 205
     .line 206

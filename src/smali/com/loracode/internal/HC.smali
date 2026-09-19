@@ -46,7 +46,7 @@
 
     const-string v1, "subtitle"
 
-    const-string v3, "Tune LoraCode for this device."
+    const-string v3, "Tune ReDHawK Code for this device."
 
     invoke-static {v1, v3}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -231,7 +231,7 @@
 
     move-object/from16 v129, v1
 
-    const-string v1, "LoraCode editor"
+    const-string v1, "ReDHawK Code editor"
 
     invoke-static {v0, v1}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -538,7 +538,7 @@
 
     move-object/from16 v146, v1
 
-    const-string v1, "LoraCode uses these libraries under their respective open-source licenses."
+    const-string v1, "ReDHawK Code uses these libraries under their respective open-source licenses."
 
     invoke-static {v0, v1}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -645,7 +645,7 @@
 
     const-string v0, "turnInfo"
 
-    const-string v1, "LoraCode keeps completion feedback quiet while this screen is focused."
+    const-string v1, "ReDHawK Code keeps completion feedback quiet while this screen is focused."
 
     invoke-static {v0, v1}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -869,7 +869,7 @@
 
     const-string v0, "customBody"
 
-    const-string v1, "Instructions added to Lora AI requests on this device."
+    const-string v1, "Instructions added to ReDHawK AI requests on this device."
 
     invoke-static {v0, v1}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -877,7 +877,7 @@
 
     const-string v0, "customHint"
 
-    const-string v1, "Tell Lora AI how you prefer to work\u2026"
+    const-string v1, "Tell ReDHawK AI how you prefer to work\u2026"
 
     invoke-static {v0, v1}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -1079,7 +1079,7 @@
 
     move-result-object v3
 
-    const-string v1, "LoraCode\'u bu cihaz i\u00e7in \u00f6zelle\u015ftirin."
+    const-string v1, "ReDHawK Code\'u bu cihaz i\u00e7in \u00f6zelle\u015ftirin."
 
     move-object/from16 v15, v115
 
@@ -1227,7 +1227,7 @@
 
     move-result-object v17
 
-    const-string v1, "LoraCode d\u00fczenleyicisi"
+    const-string v1, "ReDHawK Code d\u00fczenleyicisi"
 
     move-object/from16 v2, v130
 
@@ -1797,7 +1797,7 @@
 
     const-string v1, "customBody"
 
-    const-string v2, "Bu cihazdaki Lora AI isteklerine eklenecek talimatlar."
+    const-string v2, "Bu cihazdaki ReDHawK AI isteklerine eklenecek talimatlar."
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -1805,7 +1805,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "Lora AI\'\u0131n nas\u0131l \u00e7al\u0131\u015fmas\u0131n\u0131 istedi\u011finizi yaz\u0131n\u2026"
+    const-string v2, "ReDHawK AI\'\u0131n nas\u0131l \u00e7al\u0131\u015fmas\u0131n\u0131 istedi\u011finizi yaz\u0131n\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -2011,7 +2011,7 @@
 
     move-result-object v3
 
-    const-string v1, "LoraCode f\u00fcr dieses Ger\u00e4t anpassen."
+    const-string v1, "ReDHawK Code f\u00fcr dieses Ger\u00e4t anpassen."
 
     move-object/from16 v15, v115
 
@@ -2159,7 +2159,7 @@
 
     move-result-object v17
 
-    const-string v1, "LoraCode-Editor"
+    const-string v1, "ReDHawK Code-Editor"
 
     move-object/from16 v2, v130
 
@@ -2601,7 +2601,7 @@
 
     const-string v1, "customBody"
 
-    const-string v2, "Anweisungen f\u00fcr Lora AI auf diesem Ger\u00e4t."
+    const-string v2, "Anweisungen f\u00fcr ReDHawK AI auf diesem Ger\u00e4t."
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -2609,7 +2609,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "Wie soll Lora AI arbeiten?\u2026"
+    const-string v2, "Wie soll ReDHawK AI arbeiten?\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -2815,7 +2815,7 @@
 
     move-result-object v3
 
-    const-string v1, "Personnalisez LoraCode sur cet appareil."
+    const-string v1, "Personnalisez ReDHawK Code sur cet appareil."
 
     move-object/from16 v15, v115
 
@@ -2963,7 +2963,7 @@
 
     move-result-object v17
 
-    const-string v1, "\u00c9diteur LoraCode"
+    const-string v1, "\u00c9diteur ReDHawK Code"
 
     move-object/from16 v2, v130
 
@@ -3405,7 +3405,7 @@
 
     const-string v1, "customBody"
 
-    const-string v2, "Instructions ajout\u00e9es aux requ\u00eates Lora AI sur cet appareil."
+    const-string v2, "Instructions ajout\u00e9es aux requ\u00eates ReDHawK AI sur cet appareil."
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -3413,7 +3413,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "Comment Lora AI doit-il travailler ?\u2026"
+    const-string v2, "Comment ReDHawK AI doit-il travailler ?\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -3619,7 +3619,7 @@
 
     move-result-object v3
 
-    const-string v1, "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u0442\u0435 LoraCode \u043d\u0430 \u044d\u0442\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435."
+    const-string v1, "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u0442\u0435 ReDHawK Code \u043d\u0430 \u044d\u0442\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435."
 
     move-object/from16 v15, v115
 
@@ -3767,7 +3767,7 @@
 
     move-result-object v17
 
-    const-string v1, "\u0420\u0435\u0434\u0430\u043a\u0442\u043e\u0440 LoraCode"
+    const-string v1, "\u0420\u0435\u0434\u0430\u043a\u0442\u043e\u0440 ReDHawK Code"
 
     move-object/from16 v2, v130
 
@@ -4209,7 +4209,7 @@
 
     const-string v1, "customBody"
 
-    const-string v2, "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0434\u043b\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 Lora AI \u043d\u0430 \u044d\u0442\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435."
+    const-string v2, "\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0434\u043b\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 ReDHawK AI \u043d\u0430 \u044d\u0442\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435."
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -4217,7 +4217,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "\u041a\u0430\u043a Lora AI \u0434\u043e\u043b\u0436\u0435\u043d \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c?\u2026"
+    const-string v2, "\u041a\u0430\u043a ReDHawK AI \u0434\u043e\u043b\u0436\u0435\u043d \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c?\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -4423,7 +4423,7 @@
 
     move-result-object v3
 
-    const-string v1, "Dostosuj LoraCode na tym urz\u0105dzeniu."
+    const-string v1, "Dostosuj ReDHawK Code na tym urz\u0105dzeniu."
 
     move-object/from16 v15, v115
 
@@ -4571,7 +4571,7 @@
 
     move-result-object v17
 
-    const-string v1, "Edytor LoraCode"
+    const-string v1, "Edytor ReDHawK Code"
 
     move-object/from16 v2, v130
 
@@ -4893,7 +4893,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "Jak Lora AI ma pracowa\u0107?\u2026"
+    const-string v2, "Jak ReDHawK AI ma pracowa\u0107?\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -5051,7 +5051,7 @@
 
     move-result-object v3
 
-    const-string v1, "\u041d\u0430\u043b\u0430\u0448\u0442\u0443\u0439\u0442\u0435 LoraCode \u043d\u0430 \u0446\u044c\u043e\u043c\u0443 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457."
+    const-string v1, "\u041d\u0430\u043b\u0430\u0448\u0442\u0443\u0439\u0442\u0435 ReDHawK Code \u043d\u0430 \u0446\u044c\u043e\u043c\u0443 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457."
 
     move-object/from16 v15, v115
 
@@ -5199,7 +5199,7 @@
 
     move-result-object v17
 
-    const-string v1, "\u0420\u0435\u0434\u0430\u043a\u0442\u043e\u0440 LoraCode"
+    const-string v1, "\u0420\u0435\u0434\u0430\u043a\u0442\u043e\u0440 ReDHawK Code"
 
     move-object/from16 v2, v130
 
@@ -5513,7 +5513,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "\u042f\u043a Lora AI \u043c\u0430\u0454 \u043f\u0440\u0430\u0446\u044e\u0432\u0430\u0442\u0438?\u2026"
+    const-string v2, "\u042f\u043a ReDHawK AI \u043c\u0430\u0454 \u043f\u0440\u0430\u0446\u044e\u0432\u0430\u0442\u0438?\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -5671,7 +5671,7 @@
 
     move-result-object v3
 
-    const-string v1, "LoraCode-u bu cihaz \u00fc\u00e7\u00fcn t\u0259nziml\u0259yin."
+    const-string v1, "ReDHawK Code-u bu cihaz \u00fc\u00e7\u00fcn t\u0259nziml\u0259yin."
 
     move-object/from16 v15, v115
 
@@ -5819,7 +5819,7 @@
 
     move-result-object v17
 
-    const-string v1, "LoraCode redaktoru"
+    const-string v1, "ReDHawK Code redaktoru"
 
     move-object/from16 v2, v130
 
@@ -6133,7 +6133,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "Lora AI nec\u0259 i\u015fl\u0259m\u0259lidir?\u2026"
+    const-string v2, "ReDHawK AI nec\u0259 i\u015fl\u0259m\u0259lidir?\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -6291,7 +6291,7 @@
 
     move-result-object v3
 
-    const-string v1, "Personalize o LoraCode neste dispositivo."
+    const-string v1, "Personalize o ReDHawK Code neste dispositivo."
 
     move-object/from16 v15, v115
 
@@ -6439,7 +6439,7 @@
 
     move-result-object v17
 
-    const-string v1, "Editor LoraCode"
+    const-string v1, "Editor ReDHawK Code"
 
     move-object/from16 v2, v130
 
@@ -6753,7 +6753,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "Como o Lora AI deve trabalhar?\u2026"
+    const-string v2, "Como o ReDHawK AI deve trabalhar?\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -6911,7 +6911,7 @@
 
     move-result-object v3
 
-    const-string v1, "\u4e3a\u6b64\u8bbe\u5907\u8c03\u6574 LoraCode\u3002"
+    const-string v1, "\u4e3a\u6b64\u8bbe\u5907\u8c03\u6574 ReDHawK Code\u3002"
 
     move-object/from16 v15, v115
 
@@ -7069,7 +7069,7 @@
 
     move-result-object v19
 
-    const-string v2, "LoraCode \u7f16\u8f91\u5668"
+    const-string v2, "ReDHawK Code \u7f16\u8f91\u5668"
 
     move-object/from16 v1, v130
 
@@ -7551,7 +7551,7 @@
 
     const-string v1, "customBody"
 
-    const-string v2, "\u6dfb\u52a0\u5230\u6b64\u8bbe\u5907 Lora AI \u8bf7\u6c42\u7684\u6307\u4ee4\u3002"
+    const-string v2, "\u6dfb\u52a0\u5230\u6b64\u8bbe\u5907 ReDHawK AI \u8bf7\u6c42\u7684\u6307\u4ee4\u3002"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -7559,7 +7559,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "\u544a\u8bc9 Lora AI \u4f60\u504f\u597d\u7684\u5de5\u4f5c\u65b9\u5f0f\u2026"
+    const-string v2, "\u544a\u8bc9 ReDHawK AI \u4f60\u504f\u597d\u7684\u5de5\u4f5c\u65b9\u5f0f\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -7765,7 +7765,7 @@
 
     move-result-object v3
 
-    const-string v1, "\u062e\u0635\u0651\u0635 LoraCode \u0644\u0647\u0630\u0627 \u0627\u0644\u062c\u0647\u0627\u0632."
+    const-string v1, "\u062e\u0635\u0651\u0635 ReDHawK Code \u0644\u0647\u0630\u0627 \u0627\u0644\u062c\u0647\u0627\u0632."
 
     move-object/from16 v15, v115
 
@@ -7923,7 +7923,7 @@
 
     move-result-object v19
 
-    const-string v2, "\u0645\u062d\u0631\u0631 LoraCode"
+    const-string v2, "\u0645\u062d\u0631\u0631 ReDHawK Code"
 
     move-object/from16 v1, v130
 
@@ -8405,7 +8405,7 @@
 
     const-string v1, "customBody"
 
-    const-string v2, "\u062a\u0639\u0644\u064a\u0645\u0627\u062a \u062a\u064f\u0636\u0627\u0641 \u0625\u0644\u0649 \u0637\u0644\u0628\u0627\u062a Lora AI \u0639\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u062c\u0647\u0627\u0632."
+    const-string v2, "\u062a\u0639\u0644\u064a\u0645\u0627\u062a \u062a\u064f\u0636\u0627\u0641 \u0625\u0644\u0649 \u0637\u0644\u0628\u0627\u062a ReDHawK AI \u0639\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u062c\u0647\u0627\u0632."
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -8413,7 +8413,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "\u0623\u062e\u0628\u0631 Lora AI \u0628\u0643\u064a\u0641\u064a\u0629 \u062a\u0641\u0636\u064a\u0644\u0643 \u0644\u0644\u0639\u0645\u0644\u2026"
+    const-string v2, "\u0623\u062e\u0628\u0631 ReDHawK AI \u0628\u0643\u064a\u0641\u064a\u0629 \u062a\u0641\u0636\u064a\u0644\u0643 \u0644\u0644\u0639\u0645\u0644\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -8619,7 +8619,7 @@
 
     move-result-object v3
 
-    const-string v1, "\u0907\u0938 \u0921\u093f\u0935\u093e\u0907\u0938 \u0915\u0947 \u0932\u093f\u090f LoraCode \u0915\u094b \u0905\u0928\u0941\u0915\u0942\u0932\u093f\u0924 \u0915\u0930\u0947\u0902\u0964"
+    const-string v1, "\u0907\u0938 \u0921\u093f\u0935\u093e\u0907\u0938 \u0915\u0947 \u0932\u093f\u090f ReDHawK Code \u0915\u094b \u0905\u0928\u0941\u0915\u0942\u0932\u093f\u0924 \u0915\u0930\u0947\u0902\u0964"
 
     move-object/from16 v2, v115
 
@@ -8747,7 +8747,7 @@
 
     move-result-object v19
 
-    const-string v1, "LoraCode \u0938\u0902\u092a\u093e\u0926\u0915"
+    const-string v1, "ReDHawK Code \u0938\u0902\u092a\u093e\u0926\u0915"
 
     move-object/from16 v2, v130
 
@@ -9229,7 +9229,7 @@
 
     const-string v1, "customBody"
 
-    const-string v2, "\u0907\u0938 \u0921\u093f\u0935\u093e\u0907\u0938 \u092a\u0930 Lora AI \u0905\u0928\u0941\u0930\u094b\u0927\u094b\u0902 \u092e\u0947\u0902 \u091c\u094b\u0921\u093c\u0947 \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u0928\u093f\u0930\u094d\u0926\u0947\u0936\u0964"
+    const-string v2, "\u0907\u0938 \u0921\u093f\u0935\u093e\u0907\u0938 \u092a\u0930 ReDHawK AI \u0905\u0928\u0941\u0930\u094b\u0927\u094b\u0902 \u092e\u0947\u0902 \u091c\u094b\u0921\u093c\u0947 \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u0928\u093f\u0930\u094d\u0926\u0947\u0936\u0964"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 
@@ -9237,7 +9237,7 @@
 
     const-string v1, "customHint"
 
-    const-string v2, "Lora AI \u0915\u094b \u092c\u0924\u093e\u090f\u0902 \u0915\u093f \u0906\u092a \u0915\u0948\u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0928\u093e \u091a\u093e\u0939\u0924\u0947 \u0939\u0948\u0902\u2026"
+    const-string v2, "ReDHawK AI \u0915\u094b \u092c\u0924\u093e\u090f\u0902 \u0915\u093f \u0906\u092a \u0915\u0948\u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0928\u093e \u091a\u093e\u0939\u0924\u0947 \u0939\u0948\u0902\u2026"
 
     invoke-static {v1, v2}, Lcom/loracode/internal/Fx;->D(Ljava/lang/Object;Ljava/io/Serializable;)Lcom/loracode/internal/Ax;
 

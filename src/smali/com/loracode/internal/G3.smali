@@ -1801,7 +1801,7 @@
     .line 53
     .line 54
     .line 55
-    const-string p1, "\n                git add -A >/dev/null 2>&1 || true\n                git -c user.name=LoraCode -c user.email=noreply@loracode.local \\\n                    commit --allow-empty -m \'Initial GitHub archive snapshot\' --no-gpg-sign >/dev/null 2>&1 || true\n            fi\n        "
+    const-string p1, "\n                git add -A >/dev/null 2>&1 || true\n                git -c user.name=ReDHawK Code -c user.email=noreply@loracode.local \\\n                    commit --allow-empty -m \'Initial GitHub archive snapshot\' --no-gpg-sign >/dev/null 2>&1 || true\n            fi\n        "
 
     .line 56
     .line 57
